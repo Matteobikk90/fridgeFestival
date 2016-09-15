@@ -3,6 +3,11 @@ body {
 	color: black;
 }
 
+h4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
 #container {
 	height: 100%;
 	width: 100%;
@@ -22,6 +27,7 @@ body {
 .navbar-nav {
     float: right;
     margin: 0;
+    font-size: 18px;
 }
 
 .iconsSize {
@@ -43,7 +49,7 @@ body {
 #firstBackground {
 	width: 100%;
 	height: 750px;
-	margin-top: -21px;
+	margin-top: 80px;
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -54,7 +60,7 @@ body {
     width: 85%;
     height: 84px;
     text-align: center;
-    margin-top: 715px;
+    margin-top: 685px;
     margin-left: 7.5%;
     position: absolute;
     color: white;
@@ -96,7 +102,7 @@ body {
 	width: 28%;
 	height: 500px;
 	float: left;
-	margin-top: 75px;
+	margin-top: 135px;
 	background-size: cover;
 	background-image: url("../img/prova.jpg");
 	background-position: center;
@@ -106,7 +112,7 @@ body {
 	width: 44%;
 	height: 500px;
 	float: left;
-	margin-top: 75px;
+	margin-top: 135px;
 }
 
 #iFrame {
@@ -117,7 +123,7 @@ body {
 	width: 28%;
 	height: 500px;
 	float: left;
-	margin-top: 75px;
+	margin-top: 135px;
 	background-size: cover;
 	background-image: url("../img/prova2.jpeg");
 	background-position: center;
@@ -147,9 +153,137 @@ body {
 	background-position: center;
 }
 
+#footerBackgroundText {
+    width: 64%;
+    height: 100px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 18%;
+    margin-top: 70px;
+}
+
+#copyright {
+    width: 30%;
+    height: 20px;
+    color: #6a6a6a;
+    font-size: 18px;
+    margin-top: 944px;
+    margin-left: 16%;
+    position: absolute;
+}
+
+#agbBottom {
+	margin-left: 70%;
+	margin-top: 944px;
+	font-size: 18px;
+	position: absolute;
+	height: 25px;
+}
+
+#agbBottomUl {
+    display: inline-flex;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.aColor {
+	color: white;
+	margin-left: 10px;
+}
+
+.trattino {
+    margin: -2px 0 10px;
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 1441px) {
+
+#firstBackground {
+    width: 100%;
+    height: 1430px;
+    margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(../img/fridge_banner.png);
+}
+
+#firstBackgroundTextBottom {
+    width: 85%;
+    height: 84px;
+    text-align: center;
+    margin-top: 1362px;
+    margin-left: 7.5%;
+    position: absolute;
+    color: white;
+}
+
+#fridgeLogoLeft {
+    width: 14%;
+    height: 274px;
+    background-image: url(../img/icons/fridge_logo.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 242px;
+    position: absolute;
+    margin-left: 4%;
+}
+
+#ticketLogoRight {
+    width: 26%;
+    height: 300px;
+    position: fixed;
+    margin-left: 74%;
+    margin-top: 224px;
+}
+
+#thirdContainer {
+	width: 100%;
+	height: 580px;
+	border: 1px solid grey;
+	background-color: black;
+}
+
+#thirdContainerMap {
+    width: 54%;
+    height: 580px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
+    margin-left: 23%;
+}
+
+#footerBackground {
+    width: 100%;
+    height: 1640px;
+    background-size: cover;
+    background-image: url(../img/fridge_footer_banner.png);
+    background-position: center;
+}
+
+#copyright {
+    width: 30%;
+    height: 20px;
+    color: #6a6a6a;
+    font-size: 18px;
+    margin-top: 1591px;
+    margin-left: 16%;
+    position: absolute;
+}
+
+#agbBottom {
+    margin-left: 70%;
+    margin-top: 1591px;
+    font-size: 18px;
+    position: absolute;
+    height: 25px;
+}
 
 
 
+}
 
 
 
