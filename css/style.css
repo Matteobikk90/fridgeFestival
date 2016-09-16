@@ -24,6 +24,10 @@ h4 {
     margin-top: 15px;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     border-color: transparent; 
+}
+
 .navbar-nav {
     float: right;
     margin: 0;
@@ -38,12 +42,13 @@ h4 {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: black;
-    background-color: #36acd6;
+    background-color: transparent;
 }
 
 .navbar-default {
-    background-color: #36acd6;
-    border-color: #36acd6;
+    /*background-color: #36acd6;*/
+    border-color: transparent;
+    background: -webkit-gradient(linear, right top, left bottom, from(#36b4e4), to(#6fb342));
 }
 
 #firstBackground {
@@ -134,8 +139,8 @@ h4 {
 #thirdContainer {
 	width: 100%;
 	height: 500px;
-	border: 1px solid grey;
 	background-color: black;
+	margin-top: -1px;
 }
 
 #thirdContainerMap {
@@ -207,7 +212,7 @@ h4 {
 }
 
 #lightBluFooter {
-	background-color: #36acd6;
+	background: -webkit-gradient(linear, right top, left bottom, from(#36b4e4), to(#6fb342));
 	height: 80px;
 }
 
@@ -257,7 +262,6 @@ h4 {
 #thirdContainer {
 	width: 100%;
 	height: 580px;
-	border: 1px solid grey;
 	background-color: black;
 }
 
@@ -393,8 +397,8 @@ h4 {
 #thirdContainer {
     width: 100%;
     height: 300px;
-    border: 1px solid grey;
     background-color: black;
+    margin-top: -34px;
 }
 
 #thirdContainerMap {
@@ -587,11 +591,22 @@ h4 {
 	font-size: 10px;
 }
 
+.nav>li {
+    position: relative;
+    display: block;
+    margin-top: -12px;
+    background-color: #36acd6;
+    width: 112%;
+    margin-left: -6%;
+    text-align: center;
+}
+
 .navbar-nav {
     float: right;
     margin: 0;
-    margin-right: -15px;
-    font-size: 18px;
+    margin-top: 12px;
+    margin-right: -8px;
+    font-size: 16px;
 }
 
 .container-fluid {
@@ -629,7 +644,7 @@ h4 {
     width: 95%;
     height: 160px;
     text-align: center;
-    margin-top: 202px;
+    margin-top: 234px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
@@ -645,34 +660,34 @@ h4 {
 
 #secondBackground {
     width: 100%;
-    height: 218px;
+    height: 1000px;
     background-color: black;
     border-top: black;
     margin-top: -1px;
 }
 
 #secondBackgroundInsideLeft {
-    width: 28%;
-    height: 84px;
+    width: 100%;
+    height: 280px;
     float: left;
-    margin-top: 135px;
+    margin-top: 160px;
     background-size: cover;
     background-image: url(../img/homeLeft.jpeg);
     background-position: center;
 }
 
 #secondBackgroundInsideCenter {
-    width: 44%;
-    height: 84px;
+    width: 100%;
+    height: 280px;
     float: left;
-    margin-top: 135px;
+    margin-top: 0px;
 }
 
 #secondBackgroundInsideRight {
-    width: 28%;
-    height: 84px;
+    width: 100%;
+    height: 280px;
     float: left;
-    margin-top: 135px;
+    margin-top: 0px;
     background-size: cover;
     background-image: url(../img/homeRight.jpeg);
     background-position: center;
@@ -680,19 +695,20 @@ h4 {
 
 #thirdContainer {
     width: 100%;
-    height: 220px;
-    border: 1px solid grey;
+    height: 260px;
     background-color: black;
+    margin-top: -35px;
 }
 
 #thirdContainerMap {
-    width: 54%;
-    height: 120px;
+    width: 70%;
+    height: 185px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 23%;
-    margin-top: 35px;
+    margin-left: 15%;
+    margin-top: 30px;
+    position: absolute;
 }
 
 #footerBackground {
@@ -710,20 +726,21 @@ h4 {
     color: white;
     text-align: center;
     margin-left: 8.5%;
-    margin-top: -85px;
+    margin-top: -66px;
 }
 
 #followUsIcons {
-    margin-left: 35.5%;
-    width: 29%;
+    margin-left: 39%;
+    width: 22%;
     margin-top: 120px;
     position: absolute;
 }
 
 .iconsSize {
-	width: 30px;
-	height: 30px;
-	margin-top: -4px;
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
+    margin-right: -24px;
 }
 
 #agbBottom {
@@ -747,6 +764,132 @@ h4 {
 
 }
 
+@media only screen and (max-width: 375px) {
+
+#agbBottom {
+    margin-left: 53%;
+    margin-top: 27px;
+    font-size: 12px;
+    position: absolute;
+    height: 25px;
+}
+
+#footerBackgroundText {
+    width: 91%;
+    height: 110px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 4.5%;
+    margin-top: -66px;
+}
+
+#firstBackgroundTextBottom {
+    width: 95%;
+    height: 160px;
+    text-align: center;
+    margin-top: 234px;
+    margin-left: 2.5%;
+    position: absolute;
+    color: white;
+}
+
+#copyright {
+    width: 36%;
+    height: 20px;
+    color: black;
+    font-size: 12px;
+    margin-top: 24.5px;
+    margin-left: 3%;
+    position: absolute;
+}
+
+
+}
+
+@media only screen and (max-width: 320px) {
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    margin-top: -1px;
+    float: right;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+    margin-top: -12px;
+    background-color: #36acd6;
+    width: 113%;
+    margin-left: -6%;
+    text-align: center;
+}
+
+#firstBackgroundTextBottom {
+    width: 95%;
+    height: 178px;
+    text-align: center;
+    margin-top: 203px;
+    margin-left: 2.5%;
+    position: absolute;
+    color: white;
+}
+
+#thirdContainer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: -35px;
+}
+
+#thirdContainerMap {
+    width: 86%;
+    height: 185px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
+    margin-left: 7%;
+    margin-top: 40px;
+    position: absolute;
+} 
+
+#footerBackgroundText {
+    width: 91%;
+    height: 110px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 4.5%;
+    margin-top: -96px;
+}
+
+#copyright {
+    width: 36%;
+    height: 20px;
+    color: black;
+    font-size: 10px;
+    margin-top: 24.5px;
+    margin-left: 3%;
+    position: absolute;
+}
+
+#agbBottom {
+    margin-left: 45%;
+    margin-top: 27px;
+    font-size: 12px;
+    position: absolute;
+    height: 25px;
+}
+
+#followUsIcons {
+    margin-left: 35%;
+    width: 30%;
+    margin-top: 120px;
+    position: absolute;
+}
+
+
+}
 
 
 
