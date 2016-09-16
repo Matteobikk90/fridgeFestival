@@ -234,18 +234,18 @@ h4 {
     width: 46%;
     height: 140px;
     text-align: center;
-    margin-top: 1126px;
+    margin-top: 1092px;
     margin-left: 27%;
     position: absolute;
     color: white;
 }
 
 #fridgeLogoLeft {
-    width: 14%;
-    height: 274px;
-    margin-top: 80px;
+    width: 250px;
+    height: 220px;
+    margin-top: 12px;
     position: absolute;
-    margin-left: 4%;
+    margin-left: 3%;
 }
 
 #fridgeLogoSize {
@@ -254,11 +254,11 @@ h4 {
 }
 
 #ticketLogoRight {
-    width: 26%;
-    height: 300px;
+    width: 17%;
+    height: 250px;
     position: fixed;
-    margin-left: 74%;
-    margin-top: 80px;
+    margin-left: 83%;
+    margin-top: -10px;
 }
 
 #thirdContainer {
@@ -268,12 +268,13 @@ h4 {
 }
 
 #thirdContainerMap {
-    width: 54%;
-    height: 580px;
+    width: 64%;
+    height: 600px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 23%;
+    margin-left: 18%;
+    margin-top: -15px;
 }
 
 #followUsIcons {
@@ -292,10 +293,20 @@ h4 {
     background-position: center;
 }
 
+#footerBackgroundText {
+    width: 66%;
+    height: 100px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 136px;
+}
+
 #copyright {
     width: 30%;
     height: 20px;
-    color: #6a6a6a;
+    color: black;
     font-size: 18px;
     margin-top: 30px;
     margin-left: 6%;
@@ -672,15 +683,16 @@ h4 {
 
 #secondBackground {
     width: 100%;
-    height: 1000px;
+    height: 408px;
     background-color: black;
     border-top: black;
-    margin-top: -1px;
+    margin-top: 0px;
 }
 
 #secondBackgroundInsideLeft {
     width: 100%;
     height: 280px;
+    display: none;
     float: left;
     margin-top: 160px;
     background-size: cover;
@@ -692,7 +704,7 @@ h4 {
     width: 100%;
     height: 280px;
     float: left;
-    margin-top: 0px;
+    margin-top: 130px;
 }
 
 #secondBackgroundInsideRight {
@@ -700,6 +712,7 @@ h4 {
     height: 280px;
     float: left;
     margin-top: 0px;
+    display: none;
     background-size: cover;
     background-image: url(../img/homeRight.jpeg);
     background-position: center;
@@ -821,6 +834,9 @@ h4 {
 
 @media only screen and (max-width: 320px) {
 
+h4 {
+	font-size: 9px;
+}
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: -1px;
@@ -852,8 +868,8 @@ h4 {
 #firstBackgroundTextBottom {
     width: 95%;
     height: 178px;
-    text-align: center;
-    margin-top: 203px;
+    /* text-align: center; */
+    margin-top: 200px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
