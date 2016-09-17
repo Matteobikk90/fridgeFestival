@@ -579,19 +579,19 @@ h2 {
 }
 
 #agbBottom {
-    margin-left: 64%;
-    margin-top: 20px;
-    font-size: 18px;
+    margin-left: 68%;
+    margin-top: 23.5px;
+    font-size: 14px;
     position: absolute;
-    height: 25px;
+    height: 18px;
 }
 
 #copyright {
     width: 30%;
     height: 20px;
     color: black;
-    font-size: 18px;
-    margin-top: 22.5px;
+    font-size: 14px;
+    margin-top: 24.5px;
     margin-left: 7%;
     position: absolute;
 }
