@@ -130,7 +130,7 @@ h4 {
 	float: left;
 	margin-top: 135px;
 	background-size: cover;
-	background-image: url("../img/homeLeft.jpeg");
+	background-image: url("../img/homeRight.jpeg");
 	background-position: center;
 }
  
@@ -162,7 +162,7 @@ h4 {
 	float: left;
 	margin-top: 135px;
 	background-size: cover;
-	background-image: url("../img/homeRight.jpeg");
+	background-image: url("../img/homeLeft.jpeg");
 	background-position: center;
 }
 

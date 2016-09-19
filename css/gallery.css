@@ -111,7 +111,7 @@ h4 {
     position: fixed;
     margin-left: 74%;
     margin-top: 24px;
-    z-index:9999;
+/*    z-index:9999;*/
 }
 
 #ticketLogoRightSize {
