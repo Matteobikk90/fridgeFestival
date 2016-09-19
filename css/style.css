@@ -80,11 +80,11 @@ h4 {
 }
 
 #firstBackgroundTextBottom {
-    width: 76%;
+    width: 82%;
     height: 141px;
     text-align: center;
-    margin-top: 686px;
-    margin-left: 12%;
+    margin-top: 563px;
+    margin-left: 9%;
     position: absolute;
     color: white;
 }
@@ -128,7 +128,6 @@ h4 {
 	width: 28%;
 	height: 500px;
 	float: left;
-	margin-top: 135px;
 	background-size: cover;
 	background-image: url("../img/homeRight.jpeg");
 	background-position: center;
@@ -138,7 +137,6 @@ h4 {
 	width: 44%;
 	height: 500px;
 	float: left;
-	margin-top: 135px;
 }
 
 /*.ytp-chrome-top, .ytp-chrome-top-buttons, .ytp-chrome-bottom {
@@ -160,7 +158,6 @@ h4 {
 	width: 28%;
 	height: 500px;
 	float: left;
-	margin-top: 135px;
 	background-size: cover;
 	background-image: url("../img/homeLeft.jpeg");
 	background-position: center;
@@ -192,12 +189,12 @@ h4 {
 }
 
 #footerBackgroundText {
-    width: 66%;
+    width: 72%;
     height: 100px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 17%;
+    margin-left: 14%;
     margin-top: 70px;
 }
 
@@ -407,7 +404,6 @@ h4 {
     width: 28%;
     height: 200px;
     float: left;
-    margin-top: 135px;
     background-size: cover;
     background-image: url(../img/homeLeft.jpeg);
     background-position: center;
@@ -417,14 +413,12 @@ h4 {
     width: 44%;
     height: 200px;
     float: left;
-    margin-top: 135px;
 }
 
 #secondBackgroundInsideRight {
     width: 28%;
     height: 200px;
     float: left;
-    margin-top: 135px;
     background-size: cover;
     background-image: url(../img/homeRight.jpeg);
     background-position: center;
@@ -586,7 +580,6 @@ h4 {
     width: 28%;
     height: 170px;
     float: left;
-    margin-top: 135px;
     background-size: cover;
     background-image: url(../img/homeLeft.jpeg);
     background-position: center;
@@ -596,14 +589,12 @@ h4 {
     width: 44%;
     height: 170px;
     float: left;
-    margin-top: 135px;
 }
 
 #secondBackgroundInsideRight {
     width: 28%;
     height: 170px;
     float: left;
-    margin-top: 135px;
     background-size: cover;
     background-image: url(../img/homeRight.jpeg);
     background-position: center;
