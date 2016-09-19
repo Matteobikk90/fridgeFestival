@@ -84,9 +84,9 @@ h4 {
 
 #firstBackgroundTextBottom {
     width: 76%;
-    height: 141px;
+    height: 40px;
     text-align: center;
-    margin-top: 686px;
+    margin-top: 668px;
     margin-left: 12%;
     position: absolute;
     color: white;
@@ -173,43 +173,15 @@ h4 {
 
 #thirdBackgroundTextRightSize {
     /* font-size: 20px; */
-    width: 73%;
+    width: 75%;
     height: 250px;
-    margin-left: 13.5%;
+    margin-left: 12.5%;
     margin-top: 167.5px;
 }
 
 .imgSize {
     width: 100%;
     height: 500px;
-}
-
-#secondBackground {
-    width: 100%;
-    height: 650px;
-    background-color: black;
-    border-top: black;
-    margin-top: -1px;
-}
-
-#secondBackgroundInsideLeft {
-	width: 50%;
-	height: 500px;
-	float: left;
-	margin-top: 135px;
-	background-size: cover;
-	background-image: url("../img/homeLeft.jpeg");
-	background-position: center;
-}
-
-#secondBackgroundInsideRight {
-	width: 50%;
-	height: 500px;
-	float: left;
-	margin-top: 135px;
-	background-size: cover;
-	background-image: url("../img/homeRight.jpeg");
-	background-position: center;
 }
 
 #thirdContainer {
@@ -338,20 +310,86 @@ h4 {
     margin-top: -10px;
 }
 
+#firstBackgroundImage {
+    width: 100%;
+    height: 650px;
+}
+
+#firstBackgroundImageLeft {
+    width: 50%;
+    height: 650px;
+    float: left;
+}
+
+#firstBackgroundImageRight {
+    width: 50%;
+    height: 650px;
+    float: left;
+}
+
+#secondBackgroundImage {
+    width: 100%;
+    height: 650px;
+}
+
+#secondBackgroundImageLeft {
+    width: 50%;
+    height: 650px;
+    float: left;
+}
+
+#secondBackgroundImageRight {
+    width: 50%;
+    height: 650px;
+    float: left;
+}
+
+#thirdBackgroundImage {
+    width: 100%;
+    height: 650px;
+}
+
+#thirdBackgroundImageLeft {
+    width: 50%;
+    height: 650px;
+    float: left;
+}
+
+#thirdBackgroundTextRight {
+    width: 50%;
+    height: 650px;
+    float: left;
+    background-color: #36acd6
+}
+
+#thirdBackgroundTextRightSize {
+    /* font-size: 20px; */
+    width: 75%;
+    height: 115px;
+    margin-left: 12.5%;
+    margin-top: 267.5px;
+}
+
+.imgSize {
+    width: 100%;
+    height: 650px;
+}
+
 #thirdContainer {
-	width: 100%;
-	height: 580px;
-	background-color: black;
+    width: 100%;
+    height: 915px;
+    background-color: black;
 }
 
 #thirdContainerMap {
     width: 64%;
-    height: 600px;
+    height: 900px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
     margin-left: 18%;
-    margin-top: -15px;
+    /* margin-top: 55px; */
+    position: absolute;
 }
 
 #followUsIcons {
@@ -404,6 +442,10 @@ h4 {
 
 @media only screen and (max-width: 1024px) {
 
+h1 {
+    font-size: 19px;
+}
+
 h4 {
 	font-size: 12px;
 }
@@ -420,9 +462,9 @@ h4 {
 
 #firstBackgroundTextBottom {
     width: 76%;
-    height: 160px;
+    height: 40px;
     text-align: center;
-    margin-top: 420px;
+    margin-top: 402px;
     margin-left: 12%;
     position: absolute;
     color: white;
@@ -449,39 +491,12 @@ h4 {
     margin-top: 30px;
 }
 
-#secondBackgroundInsideLeft {
-    width: 28%;
-    height: 200px;
-    float: left;
-    margin-top: 135px;
-    background-size: cover;
-    background-image: url(../img/homeLeft.jpeg);
-    background-position: center;
-}
-
-#secondBackgroundInsideCenter {
-    width: 44%;
-    height: 200px;
-    float: left;
-    margin-top: 135px;
-}
-
-#secondBackgroundInsideRight {
-    width: 28%;
-    height: 200px;
-    float: left;
-    margin-top: 135px;
-    background-size: cover;
-    background-image: url(../img/homeRight.jpeg);
-    background-position: center;
-}
-
-#secondBackground {
-    width: 100%;
-    height: 334px;
-    background-color: black;
-    border-top: black;
-    margin-top: -1px;
+#thirdBackgroundTextRightSize {
+    /* font-size: 20px; */
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    margin-top: 175px;
 }
 
 #thirdContainer {
@@ -549,6 +564,10 @@ h4 {
 }
 
 @media only screen and (max-width: 768px) {
+
+h1 {
+    font-size: 14px;
+}
 
 .navbar-nav {
     float: right;
@@ -620,39 +639,69 @@ h4 {
     position: absolute;
 }
 
-#secondBackground {
+#firstBackgroundImage {
     width: 100%;
-    height: 340px;
-    background-color: black;
-    border-top: black;
-    margin-top: -1px;
+    height: 350px;
 }
 
-#secondBackgroundInsideLeft {
-    width: 28%;
-    height: 170px;
+#firstBackgroundImageLeft {
+    width: 50%;
+    height: 350px;
     float: left;
-    margin-top: 135px;
-    background-size: cover;
-    background-image: url(../img/homeLeft.jpeg);
-    background-position: center;
 }
 
-#secondBackgroundInsideCenter {
-    width: 44%;
-    height: 170px;
+#firstBackgroundImageRight {
+    width: 50%;
+    height: 350px;
     float: left;
-    margin-top: 135px;
 }
 
-#secondBackgroundInsideRight {
-    width: 28%;
-    height: 170px;
+#secondBackgroundImage {
+    width: 100%;
+    height: 350px;
+}
+
+#secondBackgroundImageLeft {
+    width: 50%;
+    height: 350px;
     float: left;
-    margin-top: 135px;
-    background-size: cover;
-    background-image: url(../img/homeRight.jpeg);
-    background-position: center;
+}
+
+#secondBackgroundImageRight {
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+
+#thirdBackgroundImage {
+    width: 100%;
+    height: 350px;
+}
+
+#thirdBackgroundImageLeft {
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+
+#thirdBackgroundTextRight {
+    width: 50%;
+    height: 350px;
+    float: left;
+    background-color: #36acd6
+}
+
+#thirdBackgroundTextRightSize {
+    /* font-size: 20px; */
+    width: 90%;
+    height: 110px;
+    margin-left: 5%;
+    margin-top: 120px;
+}
+
+.imgSize {
+    width: 100%;
+    height: 350px;
 }
 
 #thirdContainerMap {
@@ -709,6 +758,10 @@ h4 {
 }
 
 @media only screen and (max-width: 425px) {
+
+h1 {
+    font-size: 12px;
+}
 
 h4 {
 	font-size: 10px;
@@ -810,7 +863,7 @@ h4 {
     width: 95%;
     height: 160px;
     text-align: center;
-    margin-top: 234px;
+    margin-top: 196px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
@@ -824,41 +877,69 @@ h4 {
     margin-top: 20px;
 }
 
-#secondBackground {
+#firstBackgroundImage {
     width: 100%;
-    height: 430px;
-    background-color: black;
-    border-top: black;
-    margin-top: 0px;
+    height: 700px;
 }
 
-#secondBackgroundInsideLeft {
+#firstBackgroundImageLeft {
     width: 100%;
-    height: 280px;
-    display: none;
+    height: 350px;
     float: left;
-    margin-top: 160px;
-    background-size: cover;
-    background-image: url(../img/homeLeft.jpeg);
-    background-position: center;
 }
 
-#secondBackgroundInsideCenter {
+#firstBackgroundImageRight {
     width: 100%;
-    height: 280px;
+    height: 350px;
     float: left;
-    margin-top: 170px;
 }
 
-#secondBackgroundInsideRight {
+#secondBackgroundImage {
     width: 100%;
-    height: 280px;
+    height: 700px;
+}
+
+#secondBackgroundImageLeft {
+    width: 100%;
+    height: 350px;
     float: left;
-    margin-top: 0px;
-    display: none;
-    background-size: cover;
-    background-image: url(../img/homeRight.jpeg);
-    background-position: center;
+}
+
+#secondBackgroundImageRight {
+    width: 100%;
+    height: 350px;
+    float: left;
+}
+
+#thirdBackgroundImage {
+    width: 100%;
+    height: 700px;
+}
+
+#thirdBackgroundImageLeft {
+    width: 100%;
+    height: 350px;
+    float: left;
+}
+
+#thirdBackgroundTextRight {
+    width: 100%;
+    height: 350px;
+    float: left;
+    background-color: #36acd6
+}
+
+#thirdBackgroundTextRightSize {
+    /* font-size: 20px; */
+    width: 80%;
+    height: 110px;
+    margin-left: 10%;
+    margin-top: 120px;
+}
+
+.imgSize {
+    width: 100%;
+    height: 500px;
 }
 
 #thirdContainer {
@@ -963,10 +1044,75 @@ h4 {
     width: 95%;
     height: 160px;
     text-align: center;
-    margin-top: 234px;
+    margin-top: 190px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
+}
+
+#firstBackgroundImage {
+    width: 100%;
+    height: 700px;
+}
+
+#firstBackgroundImageLeft {
+    width: 100%;
+    height: 350px;
+    float: left;
+}
+
+#firstBackgroundImageRight {
+    width: 100%;
+    height: 350px;
+    float: left;
+}
+
+#secondBackgroundImage {
+    width: 100%;
+    height: 700px;
+}
+
+#secondBackgroundImageLeft {
+    width: 100%;
+    height: 350px;
+    float: left;
+}
+
+#secondBackgroundImageRight {
+    width: 100%;
+    height: 350px;
+    float: left;
+}
+
+#thirdBackgroundImage {
+    width: 100%;
+    height: 700px;
+}
+
+#thirdBackgroundImageLeft {
+    width: 100%;
+    height: 350px;
+    float: left;
+}
+
+#thirdBackgroundTextRight {
+    width: 100%;
+    height: 350px;
+    float: left;
+    background-color: #36acd6
+}
+
+#thirdBackgroundTextRightSize {
+    /* font-size: 20px; */
+    width: 80%;
+    height: 110px;
+    margin-left: 10%;
+    margin-top: 124px;
+}
+
+.imgSize {
+    width: 100%;
+    height: 350px;
 }
 
 #copyright {
@@ -1021,10 +1167,18 @@ h4 {
     width: 95%;
     height: 178px;
     /* text-align: center; */
-    margin-top: 200px;
+    margin-top: 194px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
+}
+
+#thirdBackgroundTextRightSize {
+    /* font-size: 20px; */
+    width: 91%;
+    height: 110px;
+    margin-left: 4.5%;
+    margin-top: 124px;
 }
 
 #thirdContainer {
