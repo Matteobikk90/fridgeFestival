@@ -80,11 +80,11 @@ h4 {
 }
 
 #firstBackgroundTextBottom {
-    width: 82%;
+    width: 100%;
     height: 141px;
     text-align: center;
-    margin-top: 563px;
-    margin-left: 9%;
+    margin-top: 572px;
+    margin-left: 0%;
     position: absolute;
     color: white;
 }
@@ -259,11 +259,11 @@ h4 {
 }
 
 #firstBackgroundTextBottom {
-    width: 46%;
+    width: 100%;
     height: 140px;
     text-align: center;
-    margin-top: 1092px;
-    margin-left: 27%;
+    margin-top: 940px;
+    margin-left: 0%;
     position: absolute;
     color: white;
 }
@@ -361,7 +361,7 @@ h4 {
 
 #firstBackground {
     width: 100%;
-    height: 450px;
+    height: 590px;
     margin-top: 80px;
     background-position: center;
     background-size: cover;
@@ -370,11 +370,11 @@ h4 {
 }
 
 #firstBackgroundTextBottom {
-    width: 76%;
+    width: 100%;
     height: 160px;
     text-align: center;
-    margin-top: 420px;
-    margin-left: 12%;
+    margin-top: 432px;
+    margin-left: 0%;
     position: absolute;
     color: white;
 }
@@ -459,12 +459,12 @@ h4 {
 }
 
 #footerBackgroundText {
-    width: 66%;
+    width: 100%;
     height: 100px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 17%;
+    margin-left: 0%;
     margin-top: 10px;
 }
 
@@ -497,6 +497,10 @@ h4 {
 }
 
 @media only screen and (max-width: 768px) {
+
+h4 {
+    font-size: 10px;
+}
 
 .navbar-nav {
     float: right;
@@ -542,7 +546,7 @@ h4 {
     width: 95%;
     height: 160px;
     text-align: center;
-    margin-top: 388px;
+    margin-top: 312px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
@@ -637,13 +641,13 @@ h4 {
 }
 
 #footerBackgroundText {
-    width: 83%;
-    height: 110px;
+    width: 100%;
+    height: 100px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 8.5%;
-    margin-top: -13px;
+    margin-left: 0%;
+    margin-top: 0px;
 }
 
 #lightBluFooter {
@@ -755,7 +759,7 @@ h4 {
     width: 95%;
     height: 160px;
     text-align: center;
-    margin-top: 234px;
+    margin-top: 176px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
@@ -774,7 +778,7 @@ h4 {
     height: 430px;
     background-color: black;
     border-top: black;
-    margin-top: 0px;
+    margin-top: -68px;
 }
 
 #secondBackgroundInsideLeft {
@@ -833,13 +837,13 @@ h4 {
 }
 
 #footerBackgroundText {
-    width: 83%;
+    width: 100%;
     height: 110px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 8.5%;
-    margin-top: -66px;
+    margin-left: 0%;
+    margin-top: -110px;
 }
 
 #followUsIcons {
@@ -888,13 +892,13 @@ h4 {
 }
 
 #footerBackgroundText {
-    width: 91%;
+    width: 97%;
     height: 110px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 4.5%;
-    margin-top: -66px;
+    margin-left: 1.5%;
+    margin-top: -114px;
 }
 
 #secondBackgroundInsideCenter {
@@ -908,7 +912,7 @@ h4 {
     width: 95%;
     height: 160px;
     text-align: center;
-    margin-top: 234px;
+    margin-top: 174px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
@@ -963,11 +967,11 @@ h4 {
 }
 
 #firstBackgroundTextBottom {
-    width: 95%;
+    width: 100%;
     height: 178px;
     /* text-align: center; */
-    margin-top: 200px;
-    margin-left: 2.5%;
+    margin-top: 170px;
+    margin-left: 0%;
     position: absolute;
     color: white;
 }
@@ -991,12 +995,12 @@ h4 {
 }
 
 #footerBackgroundText {
-    width: 91%;
+    width: 100%;
     height: 110px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 4.5%;
+    margin-left: 0%;
     margin-top: -96px;
 }
 
