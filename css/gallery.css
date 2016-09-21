@@ -284,6 +284,24 @@ h4 {
 
 @media only screen and (min-width: 1441px) {
 
+.iconsSize {
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0;
+    margin-left: -46px;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+    font-size: 18px;
+    margin-right: -40px;
+}
+
 #firstBackground {
     width: 100%;
     height: 1160px;
@@ -305,11 +323,11 @@ h4 {
 }
 
 #fridgeLogoLeft {
-    width: 250px;
-    height: 220px;
-    margin-top: 12px;
+    width: 165px;
+    height: 135px;
+    margin-top: 20px;
     position: absolute;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 #fridgeLogoSize {
@@ -318,10 +336,10 @@ h4 {
 }
 
 #ticketLogoRight {
-    width: 17%;
-    height: 250px;
+    width: 395px;
+    height: 210px;
     position: fixed;
-    margin-left: 83%;
+    margin-left: 85%;
     margin-top: -10px;
 }
 
@@ -381,8 +399,8 @@ h4 {
     /* font-size: 20px; */
     width: 75%;
     height: 115px;
-    margin-left: 12.5%;
-    margin-top: 267.5px;
+    margin-left: 13.5%;
+    margin-top: 420.5px;
 }
 
 .imgSize {
@@ -408,10 +426,10 @@ h4 {
 }
 
 #followUsIcons {
-    margin-left: 47%;
-    margin-top: 550px;
+    margin-left: 48%;
+    margin-top: 650px;
     position: absolute;
-    width: 18%;
+    width: 4%;
     height: 58px;
 }
 
@@ -439,12 +457,12 @@ h4 {
     color: black;
     font-size: 18px;
     margin-top: 30px;
-    margin-left: 6%;
+    margin-left: 4%;
     position: absolute;
 }
 
 #agbBottom {
-    margin-left: 86%;
+    margin-left: 86.5%;
     margin-top: 30px;
     font-size: 18px;
     position: absolute;

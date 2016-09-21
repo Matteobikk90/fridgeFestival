@@ -11,6 +11,5 @@ $(function() {
 		closeEffect	: 'none'
 	});
 
-	
 
 });
