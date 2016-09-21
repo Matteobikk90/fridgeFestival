@@ -121,12 +121,12 @@ h4 {
 
 #firstBackgroundImage {
     width: 100%;
-    height: 500px;
+    height: 540px;
 }
 
 #firstBackgroundImageLeft {
     width: 50%;
-    height: 500px;
+    height: 540px;
     float: left;
     background-position: center;
     background-size: cover;
@@ -135,7 +135,7 @@ h4 {
 
 #firstBackgroundImageRight {
     width: 50%;
-    height: 500px;
+    height: 540px;
     float: left;
     background-position: center;
     background-size: cover;
@@ -144,12 +144,12 @@ h4 {
 
 #secondBackgroundImage {
     width: 100%;
-    height: 500px;
+    height: 540px;
 }
 
 #secondBackgroundImageLeft {
     width: 50%;
-    height: 500px;
+    height: 540px;
     float: left;
     background-position: center;
     background-size: cover;
@@ -158,7 +158,7 @@ h4 {
 
 #secondBackgroundImageRight {
     width: 50%;
-    height: 500px;
+    height: 540px;
     float: left;
     background-position: center;
     background-size: cover;
@@ -167,12 +167,12 @@ h4 {
 
 #thirdBackgroundImage {
     width: 100%;
-    height: 500px;
+    height: 540px;
 }
 
 #thirdBackgroundImageLeft {
     width: 50%;
-    height: 500px;
+    height: 540px;
     float: left;
     background-position: center;
     background-size: cover;
@@ -181,7 +181,7 @@ h4 {
 
 #thirdBackgroundTextRight {
     width: 50%;
-    height: 500px;
+    height: 540px;
     float: left;
     background-color: #36acd6
 }
@@ -327,52 +327,52 @@ h4 {
 
 #firstBackgroundImage {
     width: 100%;
-    height: 650px;
+    height: 960px;
 }
 
 #firstBackgroundImageLeft {
     width: 50%;
-    height: 650px;
+    height: 960px;
     float: left;
 }
 
 #firstBackgroundImageRight {
     width: 50%;
-    height: 650px;
+    height: 960px;
     float: left;
 }
 
 #secondBackgroundImage {
     width: 100%;
-    height: 650px;
+    height: 960px;
 }
 
 #secondBackgroundImageLeft {
     width: 50%;
-    height: 650px;
+    height: 960px;
     float: left;
 }
 
 #secondBackgroundImageRight {
     width: 50%;
-    height: 650px;
+    height: 960px;
     float: left;
 }
 
 #thirdBackgroundImage {
     width: 100%;
-    height: 650px;
+    height: 960px;
 }
 
 #thirdBackgroundImageLeft {
     width: 50%;
-    height: 650px;
+    height: 960px;
     float: left;
 }
 
 #thirdBackgroundTextRight {
     width: 50%;
-    height: 650px;
+    height: 960px;
     float: left;
     background-color: #36acd6
 }
