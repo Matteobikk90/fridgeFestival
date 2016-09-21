@@ -128,12 +128,18 @@ h4 {
     width: 50%;
     height: 500px;
     float: left;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/2016-02.png");
 }
 
 #firstBackgroundImageRight {
     width: 50%;
     height: 500px;
     float: left;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/2016.png");
 }
 
 #secondBackgroundImage {
@@ -145,12 +151,18 @@ h4 {
     width: 50%;
     height: 500px;
     float: left;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/2015.png");
 }
 
 #secondBackgroundImageRight {
     width: 50%;
     height: 500px;
     float: left;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/2014.png");
 }
 
 #thirdBackgroundImage {
@@ -162,6 +174,9 @@ h4 {
     width: 50%;
     height: 500px;
     float: left;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/2013.png");
 }
 
 #thirdBackgroundTextRight {
