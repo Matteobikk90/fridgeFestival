@@ -806,16 +806,16 @@ h4 {
 }
 
 #followUsIcons {
-    margin-left: 42%;
+    margin-left: 30.5%;
     width: 40%;
     margin-top: 120px;
     position: absolute;
 }
 
 .iconsSize {
-    width: 30px;
-    height: 30px;
-    margin-top: -4px;
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
     margin-right: -24px;
 }
 

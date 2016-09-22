@@ -893,16 +893,16 @@ h4 {
 }
 
 #followUsIcons {
-    margin-left: 42%;
-    width: 40%;
+    margin-left: 44%;
+    width: 52%;
     margin-top: 120px;
     position: absolute;
 }
 
 .iconsSize {
-    width: 30px;
-    height: 30px;
-    margin-top: -4px;
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
     margin-right: -24px;
 }
 

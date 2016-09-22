@@ -684,7 +684,7 @@ h4 {
     width: 30%;
     height: 20px;
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 24.5px;
     margin-left: 5%;
     position: absolute;
@@ -792,10 +792,10 @@ h4 {
 }
 
 #ticketLogoRight {
-    width: 127px;
+    width: 135px;
     height: 80px;
     position: fixed;
-    margin-left: 70%;
+    margin-left: 69%;
     margin-top: 0px;
 }
 
@@ -951,10 +951,10 @@ h4 {
 }
 
 #ticketLogoRight {
-    width: 127px;
+    width: 135px;
     height: 80px;
     position: fixed;
-    margin-left: 66%;
+    margin-left: 64%;
     margin-top: 0px;
 }
 
