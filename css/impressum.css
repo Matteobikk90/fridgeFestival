@@ -120,7 +120,7 @@ h4 {
 #textPresse {
     width: 90%;
     background-color: white;
-    height: 1130px;
+    height: 1060px;
     margin-top: -30px;
     margin-left: 5%;
     position: absolute;
@@ -939,14 +939,14 @@ h4 {
 }
 
 h2 {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 17px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 15px;
     float: left;
-    margin-left: -75px;
+    margin-left: -82px;
 }
 
 .navbar-default .navbar-toggle {
@@ -987,7 +987,7 @@ h2 {
 #textPresse {
     width: 90%;
     background-color: white;
-    height: 830px;
+    height: 780px;
     margin-top: -30px;
     margin-left: 5%;
     position: absolute;
@@ -1049,7 +1049,7 @@ h2 {
 
 #agbBottom {
     margin-left: 45%;
-    margin-top: 27px;
+    margin-top: 29px;
     font-size: 10px;
     position: absolute;
     height: 25px;

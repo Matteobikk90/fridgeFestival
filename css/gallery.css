@@ -547,7 +547,7 @@ h4 {
 }
 
 h1 {
-    font-size: 19px;
+    font-size: 16px;
 }
 
 h4 {
@@ -563,6 +563,8 @@ h4 {
     position: relative;
     background-image: url(../img/gallery_fridge_banner.png);
 }
+
+
 
 #firstBackgroundTextBottom {
     width: 76%;
@@ -648,8 +650,8 @@ h4 {
     /* font-size: 20px; */
     width: 90%;
     height: 150px;
-    margin-left: 5%;
-    margin-top: 175px;
+    margin-left: 6%;
+    margin-top: 165px;
 }
 
 #thirdContainer {
@@ -732,7 +734,7 @@ h4 {
 @media only screen and (max-width: 768px) {
 
 h1 {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .navbar-nav {
@@ -874,7 +876,7 @@ h1 {
     width: 90%;
     height: 110px;
     margin-left: 5%;
-    margin-top: 120px;
+    margin-top: 115px;
 }
 
 .imgSize {
@@ -914,13 +916,15 @@ h1 {
     height: 20px;
     color: black;
     font-size: 13px;
-    margin-top: 28.5px;
+    margin-top: 25.5px;
     margin-left: 5%;
     position: absolute;
 }
 
 #footerBackground {
+    position: relative;
     width: 100%;
+    margin-top: 0px;
     height: 500px;
     background-size: cover;
     background-image: url(../img/fridge_footer_banner.png);
