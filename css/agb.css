@@ -10,13 +10,14 @@ h4 {
 
 #container {
 	height: 100%;
-	width: 96%;
+	width: 88%;
 	margin: 0 auto;
 	position: relative;
+    margin-top: 300px;
 }
 
 .container {
-    width: 96%;
+    width: 88%;
     margin-top: 100px;
 }
 
@@ -97,7 +98,7 @@ h4 {
 #fridgeLogoLeft {
     width: 125px;
     height: 95px;
-    margin-top: 10px;
+    margin-top: -212px;
     position: absolute;
     margin-left: 4%;
 }
@@ -288,7 +289,7 @@ h4 {
 #fridgeLogoLeft {
     width: 165px;
     height: 135px;
-    margin-top: 20px;
+    margin-top: -200px;
     position: absolute;
     margin-left: 2%;
 }
@@ -441,7 +442,7 @@ h4 {
 #fridgeLogoLeft {
     width: 100px;
     height: 70px;
-    margin-top: 10px;
+
     position: absolute;
     margin-left: 2.5%;
 }
@@ -615,7 +616,7 @@ h4 {
 #fridgeLogoLeft {
     width: 100px;
     height: 70px;
-    margin-top: 10px;
+
     position: absolute;
     margin-left: 2%;
 }
@@ -727,13 +728,21 @@ h4 {
 
 @media only screen and (max-width: 425px) {
 
+h2 {
+    font-size: 18px;
+}
+
 h4 {
-    font-size: 9px;
+    font-size: 14px;
     line-height: 20px;
 }
 
 #navbar-brand {
 	margin-right: 30px;
+}
+
+#container {
+    margin-top: 115px;
 }
 
 #iconsSize {
@@ -810,7 +819,7 @@ h4 {
 #fridgeLogoLeft {
     width: 80px;
     height: 80px;
-    margin-top: 24px;
+
     position: absolute;
     margin-left: 4%;
 }
@@ -953,6 +962,14 @@ h4 {
 
 @media only screen and (max-width: 375px) {
 
+h2 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
 #agbBottom {
     margin-left: 48%;
     margin-top: 27px;
@@ -1010,8 +1027,12 @@ h4 {
 
 @media only screen and (max-width: 320px) {
 
+h2 {
+    font-size: 13px;
+}
+
 h4 {
-	font-size: 9px;
+	font-size: 12px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
