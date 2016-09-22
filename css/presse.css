@@ -363,11 +363,27 @@ h4 {
 }
 
 #followUsIcons {
-    margin-left: 47%;
-    margin-top: 650px;
+    margin-left: 36%;
+    margin-top: 531px;
     position: absolute;
     width: 28%;
     height: 58px;
+}
+
+#agbBottom {
+    margin-left: 82.5%;
+    margin-top: 30px;
+    font-size: 18px;
+    position: absolute;
+    height: 25px;
+}
+
+#agbBottom {
+    margin-left: 82.5%;
+    margin-top: 30px;
+    font-size: 18px;
+    position: absolute;
+    height: 25px;
 }
     
 }
@@ -380,6 +396,14 @@ h4 {
     position: fixed;
     margin-left: 80%;
     margin-top: -10px;
+}
+
+#followUsIcons {
+    margin-left: 36%;
+    margin-top: 544px;
+    position: absolute;
+    width: 28%;
+    height: 58px;
 }
 
 }

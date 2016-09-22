@@ -488,7 +488,7 @@ h4 {
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(../img/fridge_banner.png);
+    background-image: url(../img/gallery_fridge_banner.png);
 }
 
 #followUsIcons {
@@ -497,6 +497,14 @@ h4 {
     position: absolute;
     width: 28%;
     height: 58px;
+}
+
+#agbBottom {
+    margin-left: 82.5%;
+    margin-top: 30px;
+    font-size: 18px;
+    position: absolute;
+    height: 25px;
 }
     
 }

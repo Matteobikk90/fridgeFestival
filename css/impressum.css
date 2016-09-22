@@ -339,6 +339,14 @@ h4 {
     width: 28%;
     height: 58px;
 }
+
+#agbBottom {
+    margin-left: 82.5%;
+    margin-top: 30px;
+    font-size: 18px;
+    position: absolute;
+    height: 25px;
+}
     
 }
 
