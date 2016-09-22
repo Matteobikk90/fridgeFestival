@@ -3,22 +3,18 @@ body {
     color: black;
 }
 
-h1 {
-    font-size: 22px;
+h4 {
+    font-size: 18px;
+    line-height: 24px;
 }
 
 iframe {
     margin-top: 100px;
 }
 
-h4 {
-    font-size: 18px;
-    line-height: 24px;
-}
-
 #container {
-    height: 100%;
-    width: 100%;
+/*  height: 100%;
+    width: 100%;*/
     margin: 0 auto;
     position: relative;
 }
@@ -43,7 +39,8 @@ h4 {
 .navbar-nav {
     float: right;
     margin: 0;
-    font-size: 18px;
+    margin-right: 0px;
+    font-size: 16px;
 }
 
 #navbar-brand {
@@ -51,9 +48,9 @@ h4 {
 }
 
 .iconsSize {
-    width: 40px;
-    height: 40px;
-    margin-top: -10px;
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
 }
 
 #iconsSize {
@@ -83,25 +80,25 @@ h4 {
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url("../img/gallery_fridge_banner.png");
+    background-image: url("../img/fridge_banner.png");
 }
 
 #firstBackgroundTextBottom {
-    width: 76%;
-    height: 40px;
+    width: 100%;
+    height: 141px;
     text-align: center;
-    margin-top: 668px;
-    margin-left: 12%;
+    margin-top: 572px;
+    margin-left: 0%;
     position: absolute;
     color: white;
 }
 
 #fridgeLogoLeft {
-    width: 180px;
-    height: 164px;
-    margin-top: 30px;
+    width: 125px;
+    height: 95px;
+    margin-top: 10px;
     position: absolute;
-    margin-left: 3%;
+    margin-left: 4%;
 }
 
 #fridgeLogoSize {
@@ -110,12 +107,12 @@ h4 {
 }
 
 #ticketLogoRight {
-    width: 26%;
-    height: 180px;
+    width: 319px;
+    height: 136px;
     position: fixed;
-    margin-left: 74%;
-    margin-top: 24px;
-/*    z-index:9999;*/
+    margin-left: 78%;
+    margin-top: -10px;
+    z-index: 9999;
 }
 
 #ticketLogoRightSize {
@@ -123,100 +120,60 @@ h4 {
     height: 100%;
 }
 
-#firstBackgroundImage {
+#secondBackground {
     width: 100%;
-    height: 540px;
+    height: 650px;
+    background-color: black;
+    border-top: black;
+    margin-top: -1px;
 }
 
-#firstBackgroundImageLeft {
-    width: 50%;
-    height: 540px;
-    float: left;
-    background-position: center;
-    background-size: cover;
-    background-image: url("../img/2016-02.png");
-}
-
-#firstBackgroundImageRight {
-    width: 50%;
-    height: 540px;
-    float: left;
-    background-position: center;
-    background-size: cover;
-    background-image: url("../img/2016.png");
-}
-
-#secondBackgroundImage {
-    width: 100%;
-    height: 540px;
-}
-
-#secondBackgroundImageLeft {
-    width: 50%;
-    height: 540px;
-    float: left;
-    background-position: center;
-    background-size: cover;
-    background-image: url("../img/2015.png");
-}
-
-#secondBackgroundImageRight {
-    width: 50%;
-    height: 540px;
-    float: left;
-    background-position: center;
-    background-size: cover;
-    background-image: url("../img/2014.png");
-}
-
-#thirdBackgroundImage {
-    width: 100%;
-    height: 540px;
-}
-
-#thirdBackgroundImageLeft {
-    width: 50%;
-    height: 540px;
-    float: left;
-    background-position: center;
-    background-size: cover;
-    background-image: url("../img/2013.png");
-}
-
-#thirdBackgroundTextRight {
-    width: 50%;
-    height: 540px;
-    float: left;
-    background-color: #36acd6
-}
-
-#thirdBackgroundTextRightSize {
-    /* font-size: 20px; */
-    width: 75%;
-    height: 250px;
-    margin-left: 12.5%;
-    margin-top: 167.5px;
-}
-
-.imgSize {
-    width: 100%;
+#secondBackgroundInsideLeft {
+    width: 28%;
     height: 500px;
+    float: left;
+    background-size: cover;
+    background-image: url("../img/homeRight.jpeg");
+    background-position: center;
+}
+ 
+#secondBackgroundInsideCenter {
+    width: 44%;
+    height: 500px;
+    float: left;
+}
+
+/*.ytp-chrome-top, .ytp-chrome-top-buttons, .ytp-chrome-bottom {
+    -moz-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    -webkit-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    display: none;
+}
+
+.ytp-title-text {
+    display: none;
+}*/
+
+#iFrame {
+    border: none;
+}
+
+#secondBackgroundInsideRight {
+    width: 28%;
+    height: 500px;
+    float: left;
+    background-size: cover;
+    background-image: url("../img/homeLeft.jpeg");
+    background-position: center;
 }
 
 #thirdContainer {
     width: 100%;
-    height: 500px;
-    background-color: black;
+    height: 880px;
     margin-top: -1px;
-}
-
-#thirdContainerMap {
-    width: 54%;
-    height: 496px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 23%;
 }
 
 #footerBackground {
@@ -229,19 +186,19 @@ h4 {
 }
 
 #footerBackgroundText {
-    width: 66%;
+    width: 100%;
     height: 100px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 17%;
+    /* margin-left: 14%; */
     margin-top: 70px;
 }
 
 #followUsIcons {
-    margin-left: 46.5%;
+    margin-left: 47%;
     width: 28%;
-    margin-top: 390px;
+    margin-top: 400px;
     position: absolute;
     height: 30px;
 }
@@ -257,7 +214,7 @@ h4 {
 }
 
 #agbBottom {
-    margin-left: 78%;
+    margin-left: 77%;
     margin-top: 30px;
     font-size: 18px;
     position: absolute;
@@ -288,12 +245,6 @@ h4 {
 
 @media only screen and (min-width: 1441px) {
 
-.iconsSize {
-    width: 30px;
-    height: 30px;
-    margin-top: -4px;
-}
-
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     margin-right: 0;
     margin-left: -46px;
@@ -302,26 +253,26 @@ h4 {
 .navbar-nav {
     float: right;
     margin: 0;
-    font-size: 18px;
     margin-right: -40px;
+    font-size: 18px;
 }
 
 #firstBackground {
     width: 100%;
-    height: 1160px;
+    height: 1420px;
     margin-top: 80px;
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(../img/gallery_fridge_banner.png);
+    background-image: url(../img/fridge_banner.png);
 }
 
 #firstBackgroundTextBottom {
-    width: 46%;
+    width: 100%;
     height: 140px;
     text-align: center;
-    margin-top: 1092px;
-    margin-left: 27%;
+    margin-top: 1120px;
+    margin-left: 0%;
     position: absolute;
     color: white;
 }
@@ -347,85 +298,46 @@ h4 {
     margin-top: -10px;
 }
 
-#firstBackgroundImage {
-    width: 100%;
-    height: 960px;
+#secondBackgroundInsideLeft {
+    width: 28%;
+    height: 560px;
+    float: left;
+    background-size: cover;
+    background-image: url(../img/homeRight.jpeg);
+    background-position: center;
 }
 
-#firstBackgroundImageLeft {
-    width: 50%;
-    height: 960px;
+#secondBackgroundInsideCenter {
+    width: 44%;
+    height: 560px;
     float: left;
 }
 
-#firstBackgroundImageRight {
-    width: 50%;
-    height: 960px;
+#secondBackgroundInsideRight {
+    width: 28%;
+    height: 560px;
     float: left;
-}
-
-#secondBackgroundImage {
-    width: 100%;
-    height: 960px;
-}
-
-#secondBackgroundImageLeft {
-    width: 50%;
-    height: 960px;
-    float: left;
-}
-
-#secondBackgroundImageRight {
-    width: 50%;
-    height: 960px;
-    float: left;
-}
-
-#thirdBackgroundImage {
-    width: 100%;
-    height: 960px;
-}
-
-#thirdBackgroundImageLeft {
-    width: 50%;
-    height: 960px;
-    float: left;
-}
-
-#thirdBackgroundTextRight {
-    width: 50%;
-    height: 960px;
-    float: left;
-    background-color: #36acd6
-}
-
-#thirdBackgroundTextRightSize {
-    /* font-size: 20px; */
-    width: 75%;
-    height: 115px;
-    margin-left: 13.5%;
-    margin-top: 420.5px;
-}
-
-.imgSize {
-    width: 100%;
-    height: 650px;
+    background-size: cover;
+    background-image: url(../img/homeLeft.jpeg);
+    background-position: center;
 }
 
 #thirdContainer {
     width: 100%;
     height: 1240px;
-    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
 }
 
 #thirdContainerMap {
     width: 100%;
-    height: 1420px;
+    height: 1496px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
     margin-left: 0%;
-    /* margin-top: 55px; */
+    margin-top: -72px;
     position: absolute;
 }
 
@@ -479,40 +391,53 @@ h4 {
 
 @media only screen and (max-width: 1024px) {
 
-h1 {
-    font-size: 19px;
-}
-
 h4 {
     font-size: 12px;
 }
 
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-left: -2%;
+}
+
+.iconsSize {
+    width: 25px;
+    height: 25px;
+    margin-top: -2px;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+    margin-right: -37px;
+    font-size: 14px;
+}
+
 #firstBackground {
     width: 100%;
-    height: 450px;
+    height: 590px;
     margin-top: 80px;
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(../img/gallery_fridge_banner.png);
+    background-image: url(../img/fridge_banner.png);
 }
 
 #firstBackgroundTextBottom {
-    width: 76%;
-    height: 40px;
+    width: 100%;
+    height: 160px;
     text-align: center;
-    margin-top: 402px;
-    margin-left: 12%;
+    margin-top: 432px;
+    margin-left: 0%;
     position: absolute;
     color: white;
 }
 
 #fridgeLogoLeft {
-    width: 122px;
-    height: 122px;
-    margin-top: 24px;
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
     position: absolute;
-    margin-left: 4%;
+    margin-left: 2.5%;
 }
 
 #fridgeLogoSize {
@@ -521,68 +446,43 @@ h4 {
 }
 
 #ticketLogoRight {
-    width: 26%;
-    height: 110px;
+    width: 159.5px;
+    height: 88px;
     position: fixed;
-    margin-left: 74%;
-    margin-top: 30px;
+    margin-left: 85%;
+    margin-top: -4px;
 }
 
-#firstBackgroundImage {
+#secondBackgroundInsideLeft {
+    width: 28%;
+    height: 200px;
+    float: left;
+    background-size: cover;
+    background-image: url(../img/homeLeft.jpeg);
+    background-position: center;
+}
+
+#secondBackgroundInsideCenter {
+    width: 44%;
+    height: 200px;
+    float: left;
+}
+
+#secondBackgroundInsideRight {
+    width: 28%;
+    height: 200px;
+    float: left;
+    background-size: cover;
+    background-image: url(../img/homeRight.jpeg);
+    background-position: center;
+}
+
+#secondBackground {
     width: 100%;
-    height: 450px;
-}
-
-#firstBackgroundImageLeft {
-    width: 50%;
-    height: 450px;
-    float: left;
-}
-
-#firstBackgroundImageRight {
-    width: 50%;
-    height: 450px;
-    float: left;
-}
-
-#secondBackgroundImage {
-    width: 100%;
-    height: 450px;
-}
-
-#secondBackgroundImageLeft {
-    width: 50%;
-    height: 450px;
-    float: left;
-}
-
-#secondBackgroundImageRight {
-    width: 50%;
-    height: 450px;
-    float: left;
-}
-
-#thirdBackgroundImage {
-    width: 100%;
-    height: 450px;
-}
-
-#thirdBackgroundImageLeft {
-    width: 50%;
-    height: 450px;
-}
-
-#thirdBackgroundTextRight {
-    width: 50%;
-    height: 450px;
-}
-
-#thirdBackgroundTextRightSize {
-    /* font-size: 20px; */
-    width: 90%;
-    height: 150px;
-    margin-left: 5%;
-    margin-top: 175px;
+    height: 238px;
+    background-color: black;
+    border-top: black;
+    margin-top: -1px;
 }
 
 #thirdContainer {
@@ -612,19 +512,19 @@ h4 {
 }
 
 #footerBackgroundText {
-    width: 66%;
+    width: 100%;
     height: 100px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 17%;
+    margin-left: 0%;
     margin-top: 10px;
 }
 
 #followUsIcons {
-    margin-left: 45%;
-    width: 30%;
-    margin-top: 266px;
+    margin-left: 30.5%;
+    width: 40%;
+    margin-top: 290px;
     position: absolute;
     height: 30px;
 }
@@ -633,47 +533,43 @@ h4 {
     width: 30%;
     height: 20px;
     color: black;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 30px;
-    margin-left: 6%;
+    margin-left: 4.5%;
     position: absolute;
 }
 
 #agbBottom {
-    margin-left: 71%;
+    margin-left: 77%;
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 14px;
     position: absolute;
     height: 25px;
-}
-
-.imgSize {
-    width: 100%;
-    height: 450px;
 }
 
 }
 
 @media only screen and (max-width: 768px) {
 
-h1 {
-    font-size: 14px;
+h4 {
+    font-size: 10px;
 }
 
 .navbar-nav {
     float: right;
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
+    margin-right: -22px;
 }
 
 #iconsSize {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 .iconsSize {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 .navbar, .navbar-default {
@@ -697,14 +593,14 @@ h1 {
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(../img/gallery_fridge_banner.png);
+    background-image: url(../img/fridge_banner.png);
 }
 
 #firstBackgroundTextBottom {
     width: 95%;
     height: 160px;
     text-align: center;
-    margin-top: 388px;
+    margin-top: 312px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
@@ -712,10 +608,18 @@ h1 {
 
 #fridgeLogoLeft {
     width: 100px;
-    height: 100px;
-    margin-top: 40px;
+    height: 70px;
+    margin-top: 10px;
     position: absolute;
-    margin-left: 4%;
+    margin-left: 2%;
+}
+
+#ticketLogoRight {
+    width: 159.5px;
+    height: 88px;
+    position: fixed;
+    margin-left: 80%;
+    margin-top: -4px;
 }
 
 #fridgeLogoSize {
@@ -730,69 +634,36 @@ h1 {
     position: absolute;
 }
 
-#firstBackgroundImage {
+#secondBackground {
     width: 100%;
-    height: 350px;
+    height: 208px;
+    background-color: black;
+    border-top: black;
+    margin-top: -1px;
 }
 
-#firstBackgroundImageLeft {
-    width: 50%;
-    height: 350px;
+#secondBackgroundInsideLeft {
+    width: 28%;
+    height: 170px;
+    float: left;
+    background-size: cover;
+    background-image: url(../img/homeLeft.jpeg);
+    background-position: center;
+}
+
+#secondBackgroundInsideCenter {
+    width: 44%;
+    height: 170px;
     float: left;
 }
 
-#firstBackgroundImageRight {
-    width: 50%;
-    height: 350px;
+#secondBackgroundInsideRight {
+    width: 28%;
+    height: 170px;
     float: left;
-}
-
-#secondBackgroundImage {
-    width: 100%;
-    height: 350px;
-}
-
-#secondBackgroundImageLeft {
-    width: 50%;
-    height: 350px;
-    float: left;
-}
-
-#secondBackgroundImageRight {
-    width: 50%;
-    height: 350px;
-    float: left;
-}
-
-#thirdBackgroundImage {
-    width: 100%;
-    height: 350px;
-}
-
-#thirdBackgroundImageLeft {
-    width: 50%;
-    height: 350px;
-    float: left;
-}
-
-#thirdBackgroundTextRight {
-    width: 50%;
-    height: 350px;
-    float: left;
-    background-color: #36acd6
-}
-
-#thirdBackgroundTextRightSize {
-    /* font-size: 20px; */
-    width: 90%;
-    height: 110px;
-    margin-left: 5%;
-    margin-top: 120px;
-}
-
-.imgSize {
-    width: 100%;
-    height: 350px;
+    background-size: cover;
+    background-image: url(../img/homeRight.jpeg);
+    background-position: center;
 }
 
 #thirdContainerMap {
@@ -806,9 +677,9 @@ h1 {
 }
 
 #agbBottom {
-    margin-left: 68%;
+    margin-left: 71%;
     margin-top: 23.5px;
-    font-size: 14px;
+    font-size: 12px;
     position: absolute;
     height: 18px;
 }
@@ -819,26 +690,28 @@ h1 {
     color: black;
     font-size: 14px;
     margin-top: 24.5px;
-    margin-left: 7%;
+    margin-left: 5%;
     position: absolute;
 }
 
-#footerBackground {
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    background-image: url(../img/fridge_footer_banner.png);
-    background-position: center;
-}
-
 #footerBackgroundText {
-    width: 83%;
+    width: 100%;
     height: 110px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 8.5%;
-    margin-top: -13px;
+    margin-left: 0%;
+    margin-top: -68px;
+}
+
+#footerBackgroundText {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 0px;
 }
 
 #lightBluFooter {
@@ -850,12 +723,9 @@ h1 {
 
 @media only screen and (max-width: 425px) {
 
-h1 {
-    font-size: 12px;
-}
-
 h4 {
-    font-size: 10px;
+    font-size: 9px;
+    line-height: 20px;
 }
 
 #navbar-brand {
@@ -863,9 +733,10 @@ h4 {
 }
 
 #iconsSize {
-    width: 40px;
-    margin-top: 4px;
-    height: 40px;
+    width: 45px;
+    margin-top: 1px;
+    height: 45px;
+    margin-right: 4%;
 }
 
 .navbar-brand {
@@ -890,7 +761,7 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 14px;
     float: left;
-    margin-left: -66px;
+    margin-left: -73px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -929,7 +800,7 @@ h4 {
     height: 80px;
     position: fixed;
     margin-left: 62%;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 #fridgeLogoLeft {
@@ -947,90 +818,62 @@ h4 {
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(../img/gallery_fridge_banner.png);
+    background-image: url(../img/fridge_banner.png);
 }
 
 #firstBackgroundTextBottom {
     width: 95%;
     height: 160px;
     text-align: center;
-    margin-top: 196px;
+    margin-top: 183px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
 }
 
 #ticketLogoRight {
-    width: 127px;
-    height: 80px;
+    width: 139.5px;
+    height: 68px;
     position: fixed;
-    margin-left: 70%;
-    margin-top: 20px;
+    margin-left: 68%;
+    margin-top: 2px;
 }
 
-#firstBackgroundImage {
+#secondBackground {
     width: 100%;
-    height: 700px;
+    height: 430px;
+    background-color: black;
+    border-top: black;
+    margin-top: -68px;
 }
 
-#firstBackgroundImageLeft {
+#secondBackgroundInsideLeft {
     width: 100%;
-    height: 350px;
+    height: 280px;
+    display: none;
     float: left;
+    margin-top: 160px;
+    background-size: cover;
+    background-image: url(../img/homeLeft.jpeg);
+    background-position: center;
 }
 
-#firstBackgroundImageRight {
+#secondBackgroundInsideCenter {
     width: 100%;
-    height: 350px;
+    height: 280px;
     float: left;
+    margin-top: 170px;
 }
 
-#secondBackgroundImage {
+#secondBackgroundInsideRight {
     width: 100%;
-    height: 700px;
-}
-
-#secondBackgroundImageLeft {
-    width: 100%;
-    height: 350px;
+    height: 280px;
     float: left;
-}
-
-#secondBackgroundImageRight {
-    width: 100%;
-    height: 350px;
-    float: left;
-}
-
-#thirdBackgroundImage {
-    width: 100%;
-    height: 700px;
-}
-
-#thirdBackgroundImageLeft {
-    width: 100%;
-    height: 350px;
-    float: left;
-}
-
-#thirdBackgroundTextRight {
-    width: 100%;
-    height: 350px;
-    float: left;
-    background-color: #36acd6
-}
-
-#thirdBackgroundTextRightSize {
-    /* font-size: 20px; */
-    width: 80%;
-    height: 110px;
-    margin-left: 10%;
-    margin-top: 120px;
-}
-
-.imgSize {
-    width: 100%;
-    height: 500px;
+    margin-top: 0px;
+    display: none;
+    background-size: cover;
+    background-image: url(../img/homeRight.jpeg);
+    background-position: center;
 }
 
 #thirdContainer {
@@ -1060,31 +903,31 @@ h4 {
 }
 
 #footerBackgroundText {
-    width: 83%;
+    width: 100%;
     height: 110px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 8.5%;
-    margin-top: -66px;
+    margin-left: 0%;
+    margin-top: -110px;
 }
 
 #followUsIcons {
-    margin-left: 42%;
-    width: 22%;
+    margin-left: 43.5%;
+    width: 13%;
     margin-top: 120px;
     position: absolute;
 }
 
 .iconsSize {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-top: -4px;
     margin-right: -24px;
 }
 
 #agbBottom {
-    margin-left: 59%;
+    margin-left: 56%;
     margin-top: 27px;
     font-size: 12px;
     position: absolute;
@@ -1095,9 +938,9 @@ h4 {
     width: 32%;
     height: 20px;
     color: black;
-    font-size: 12px;
+    font-size: 11px;
     margin-top: 24.5px;
-    margin-left: 3%;
+    margin-left: 5%;
     position: absolute;
 }
 
@@ -1107,21 +950,34 @@ h4 {
 @media only screen and (max-width: 375px) {
 
 #agbBottom {
-    margin-left: 53%;
+    margin-left: 50%;
     margin-top: 27px;
     font-size: 12px;
     position: absolute;
     height: 25px;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    margin-top: 14px;
+    float: left;
+    margin-left: -74px;
+}
+
+#followUsIcons {
+    margin-left: 43%;
+    width: 13%;
+    margin-top: 120px;
+    position: absolute;
+}
+
 #footerBackgroundText {
-    width: 91%;
+    width: 97%;
     height: 110px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 4.5%;
-    margin-top: -66px;
+    margin-left: 1.5%;
+    margin-top: -114px;
 }
 
 #secondBackgroundInsideCenter {
@@ -1135,84 +991,19 @@ h4 {
     width: 95%;
     height: 160px;
     text-align: center;
-    margin-top: 190px;
+    margin-top: 180px;
     margin-left: 2.5%;
     position: absolute;
     color: white;
-}
-
-#firstBackgroundImage {
-    width: 100%;
-    height: 700px;
-}
-
-#firstBackgroundImageLeft {
-    width: 100%;
-    height: 350px;
-    float: left;
-}
-
-#firstBackgroundImageRight {
-    width: 100%;
-    height: 350px;
-    float: left;
-}
-
-#secondBackgroundImage {
-    width: 100%;
-    height: 700px;
-}
-
-#secondBackgroundImageLeft {
-    width: 100%;
-    height: 350px;
-    float: left;
-}
-
-#secondBackgroundImageRight {
-    width: 100%;
-    height: 350px;
-    float: left;
-}
-
-#thirdBackgroundImage {
-    width: 100%;
-    height: 700px;
-}
-
-#thirdBackgroundImageLeft {
-    width: 100%;
-    height: 350px;
-    float: left;
-}
-
-#thirdBackgroundTextRight {
-    width: 100%;
-    height: 350px;
-    float: left;
-    background-color: #36acd6
-}
-
-#thirdBackgroundTextRightSize {
-    /* font-size: 20px; */
-    width: 80%;
-    height: 110px;
-    margin-left: 10%;
-    margin-top: 124px;
-}
-
-.imgSize {
-    width: 100%;
-    height: 350px;
 }
 
 #copyright {
     width: 36%;
     height: 20px;
     color: black;
-    font-size: 12px;
-    margin-top: 24.5px;
-    margin-left: 3%;
+    font-size: 11px;
+    margin-top: 27.5px;
+    margin-left: 7%;
     position: absolute;
 }
 
@@ -1228,7 +1019,7 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 15px;
     float: left;
-    margin-left: -75px;
+    margin-left: -84px;
 }
 
 .navbar-default .navbar-toggle {
@@ -1255,21 +1046,13 @@ h4 {
 }
 
 #firstBackgroundTextBottom {
-    width: 95%;
+    width: 100%;
     height: 178px;
     /* text-align: center; */
-    margin-top: 194px;
-    margin-left: 2.5%;
+    margin-top: 170px;
+    margin-left: 0%;
     position: absolute;
     color: white;
-}
-
-#thirdBackgroundTextRightSize {
-    /* font-size: 20px; */
-    width: 91%;
-    height: 110px;
-    margin-left: 4.5%;
-    margin-top: 124px;
 }
 
 #thirdContainer {
@@ -1291,12 +1074,12 @@ h4 {
 }
 
 #footerBackgroundText {
-    width: 91%;
+    width: 100%;
     height: 110px;
     position: absolute;
     color: white;
     text-align: center;
-    margin-left: 4.5%;
+    margin-left: 0%;
     margin-top: -96px;
 }
 
@@ -1319,7 +1102,7 @@ h4 {
 }
 
 #followUsIcons {
-    margin-left: 39%;
+    margin-left: 41.5%;
     width: 22%;
     margin-top: 120px;
     position: absolute;

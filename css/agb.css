@@ -738,8 +738,9 @@ h4 {
 
 #iconsSize {
     width: 45px;
-    margin-top: 4px;
+    margin-top: 1px;
     height: 45px;
+    margin-right: 4%;
 }
 
 .navbar-brand {
