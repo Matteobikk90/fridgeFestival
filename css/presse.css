@@ -143,8 +143,11 @@ h4 {
 #thirdContainer {
     width: 100%;
     height: 652px;
-    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
     margin-top: -1px;
+    position: relative;
 }
 
 #thirdContainerMap {
@@ -159,7 +162,7 @@ h4 {
 
 #footerBackground {
     width: 100%;
-    margin-top: -1px;
+    margin-top: -127px;
     height: 1000px;
     background-size: cover;
     background-image: url(../img/fridge_footer_banner.png);
@@ -286,7 +289,9 @@ h4 {
 #thirdContainer {
     width: 100%;
     height: 1240px;
-    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
 }
 
 #thirdContainerMap {
@@ -302,7 +307,7 @@ h4 {
 
 #followUsIcons {
     margin-left: 48%;
-    margin-top: 650px;
+    margin-top: 500px;
     position: absolute;
     width: 4%;
     height: 58px;
@@ -310,7 +315,7 @@ h4 {
 
 #footerBackground {
     width: 100%;
-    height: 1640px;
+    height: 1300px;
     background-size: cover;
     background-image: url(../img/fridge_footer_banner.png);
     background-position: center;
@@ -346,6 +351,49 @@ h4 {
 
 
 
+}
+
+@media only screen and (min-width: 1680px) {
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 77%;
+    margin-top: -10px;
+}
+
+#followUsIcons {
+    margin-left: 47%;
+    margin-top: 650px;
+    position: absolute;
+    width: 28%;
+    height: 58px;
+}
+    
+}
+
+
+@media only screen and (min-width: 1920px) {
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 80%;
+    margin-top: -10px;
+}
+
+}
+
+@media only screen and (min-width: 2560px) {
+
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 85%;
+    margin-top: -10px;
+}
+    
 }
 
 @media only screen and (max-width: 1024px) {
@@ -416,9 +464,12 @@ h4 {
 
 #thirdContainer {
     width: 100%;
-    height: 350px;
-    background-color: black;
-    margin-top: -34px;
+    height: 423px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
+    /* margin-top: -34px; */
+    position: relative;
 }
 
 #thirdContainerMap {
@@ -433,7 +484,7 @@ h4 {
 
 #footerBackground {
     width: 100%;
-    height: 714px;
+    height: 545px;
     background-size: cover;
     background-image: url(../img/fridge_footer_banner.png);
     background-position: center;
@@ -452,7 +503,7 @@ h4 {
 #followUsIcons {
     margin-left: 30.5%;
     width: 40%;
-    margin-top: 290px;
+    margin-top: 210px;
     position: absolute;
     height: 30px;
 }
@@ -568,7 +619,7 @@ h2 {
 }
 
 #followUsIcons {
-    margin-left: 44.5%;
+    margin-left: 38%;
     width: 26%;
     margin-top: 186px;
     position: absolute;
@@ -602,7 +653,9 @@ h2 {
 #thirdContainer {
     width: 100%;
     height: 420px;
-    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
     margin-top: -34px;
 }
 
@@ -665,8 +718,19 @@ h4 {
 	font-size: 10px;
 }
 
+h2 {
+    font-size: 18px;
+}
+
 #navbar-brand {
 	margin-right: 30px;
+}
+
+#textPresseInside {
+    width: 100%;
+    /* position: fixed; */
+    height: 100px;
+    margin-top: 80px;
 }
 
 .navbar-brand {
@@ -700,7 +764,7 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 14px;
     float: left;
-    margin-left: -66px;
+    margin-left: -90px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -781,8 +845,17 @@ h4 {
 #thirdContainer {
     width: 100%;
     height: 306px;
-    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
     margin-top: -35px;
+}
+
+#linkStyle {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 48px;
 }
 
 #thirdContainerMap {
@@ -858,6 +931,19 @@ h4 {
 
 h2 {
     font-size: 16px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    margin-top: 14px;
+    float: left;
+    margin-left: -91px;
+}
+
+#textPresseInside {
+    width: 100%;
+    /* position: fixed; */
+    height: 84px;
+    margin-top: 84px;
 }
 
 #agbBottom {
@@ -947,7 +1033,7 @@ h4 {
 }
 
 h2 {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 17px;
 }
 
@@ -1009,8 +1095,10 @@ h2 {
 
 #thirdContainer {
     width: 100%;
-    height: 325px;
-    background-color: black;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
     margin-top: -35px;
 }
 
@@ -1033,6 +1121,13 @@ h2 {
     text-align: center;
     margin-left: 4.5%;
     margin-top: -96px;
+}
+
+#textPresseInside {
+    width: 100%;
+    /* position: fixed; */
+    height: 84px;
+    margin-top: 80px;
 }
 
 #copyright {

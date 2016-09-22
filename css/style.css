@@ -165,11 +165,12 @@ h4 {
 
 #thirdContainer {
     width: 100%;
-    height: 880px;
-    margin-top: -1px;
+    height: 600px;
+    margin-top: -148px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
+    position: relative;
 }
 
 #footerBackground {
@@ -319,11 +320,14 @@ h4 {
 }
 
 #thirdContainer {
-	width: 100%;
-	height: 1240px;
+    width: 100%;
+    height: 1000px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
+    margin-left: 0%;
+    /* margin-top: 55px; */
+    position: relative;
 }
 
 #thirdContainerMap {
@@ -383,6 +387,59 @@ h4 {
 
 
 
+}
+
+@media only screen and (min-width: 1680px) {
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 77%;
+    margin-top: -10px;
+}
+
+#followUsIcons {
+    margin-left: 47%;
+    margin-top: 650px;
+    position: absolute;
+    width: 28%;
+    height: 58px;
+}
+
+#firstBackground {
+    width: 100%;
+    height: 1280px;
+    margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(../img/fridge_banner.png);
+}
+    
+}
+
+
+@media only screen and (min-width: 1920px) {
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 80%;
+    margin-top: -10px;
+}
+
+}
+
+@media only screen and (min-width: 2560px) {
+
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 85%;
+    margin-top: -10px;
+}
+    
 }
 
 @media only screen and (max-width: 1024px) {
@@ -755,7 +812,7 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 14px;
     float: left;
-    margin-left: -73px;
+    margin-left: -90px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -895,7 +952,7 @@ h4 {
     color: white;
     text-align: center;
     margin-left: 0%;
-    margin-top: -110px;
+    margin-top: -40px;
 }
 
 #followUsIcons {
@@ -945,7 +1002,7 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 14px;
     float: left;
-    margin-left: -74px;
+    margin-left: -91px;
 }
 
 #ticketLogoRight {
@@ -970,7 +1027,7 @@ h4 {
     color: white;
     text-align: center;
     margin-left: 1.5%;
-    margin-top: -114px;
+    margin-top: -40px;
 }
 
 #secondBackgroundInsideCenter {
@@ -1006,7 +1063,7 @@ h4 {
 @media only screen and (max-width: 320px) {
 
 h4 {
-	font-size: 9px;
+	font-size: 8px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -1060,9 +1117,10 @@ h4 {
 
 #thirdContainer {
     width: 100%;
-    height: 369px;
+    height: 275px;
     background-color: black;
-    margin-top: -35px;
+    margin-top: -48px;
+    position: relative;
 }
 
 #thirdContainerMap {
@@ -1083,7 +1141,7 @@ h4 {
     color: white;
     text-align: center;
     margin-left: 0%;
-    margin-top: -96px;
+    margin-top: -24px;
 }
 
 #ticketLogoRight {

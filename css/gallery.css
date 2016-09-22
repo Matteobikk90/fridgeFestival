@@ -201,10 +201,13 @@ h4 {
 }
 
 #thirdContainer {
-	width: 100%;
-	height: 500px;
-	background-color: black;
-	margin-top: -1px;
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/mappe.png);
+    /* margin-top: -39px; */
+    background-position: center;
+    position: relative;
+    background-size: cover;
 }
 
 #thirdContainerMap {
@@ -212,13 +215,13 @@ h4 {
     height: 496px;
     background-position: center;
     background-size: cover;
-    background-image: url(../img/mappe.png);
+
     margin-left: 23%;
 }
 
 #footerBackground {
     width: 100%;
-    margin-top: -1px;
+    margin-top: -208px;
     height: 1000px;
     background-size: cover;
     background-image: url(../img/fridge_footer_banner.png);
@@ -411,20 +414,15 @@ h4 {
 
 #thirdContainer {
     width: 100%;
-    height: 1240px;
-    background-color: black;
-}
-
-#thirdContainerMap {
-    width: 100%;
-    height: 1420px;
+    height: 1000px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
     margin-left: 0%;
     /* margin-top: 55px; */
-    position: absolute;
+    position: relative;
 }
+
 
 #followUsIcons {
     margin-left: 48%;
@@ -472,6 +470,59 @@ h4 {
 
 
 
+}
+
+@media only screen and (min-width: 1680px) {
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 77%;
+    margin-top: -10px;
+}
+
+#firstBackground {
+    width: 100%;
+    height: 1200px;
+    margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(../img/fridge_banner.png);
+}
+
+#followUsIcons {
+    margin-left: 48%;
+    margin-top: 650px;
+    position: absolute;
+    width: 28%;
+    height: 58px;
+}
+    
+}
+
+
+@media only screen and (min-width: 1920px) {
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 80%;
+    margin-top: -10px;
+}
+
+}
+
+@media only screen and (min-width: 2560px) {
+
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 85%;
+    margin-top: -10px;
+}
+    
 }
 
 @media only screen and (max-width: 1024px) {
@@ -596,8 +647,10 @@ h4 {
 #thirdContainer {
     width: 100%;
     height: 420px;
-    background-color: black;
+    background-image: url(../img/mappe.png);
     margin-top: -34px;
+    background-size: cover;
+    background-position: center;
 }
 
 #thirdContainerMap {
@@ -641,16 +694,16 @@ h4 {
     width: 30%;
     height: 20px;
     color: black;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 30px;
-    margin-left: 6%;
+    margin-left: 5%;
     position: absolute;
 }
 
 #agbBottom {
-    margin-left: 71%;
+    margin-left: 77%;
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 14px;
     position: absolute;
     height: 25px;
 }
@@ -682,13 +735,8 @@ h1 {
 }
 
 #iconsSize {
-    width: 30px;
-    height: 30px;
-}
-
-.iconsSize {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 .navbar, .navbar-default {
@@ -747,10 +795,18 @@ h1 {
 }
 
 #followUsIcons {
-    margin-left: 43.5%;
+    margin-left: 46%;
     width: 13%;
-    margin-top: 186px;
+    margin-top: 208px;
     position: absolute;
+}
+
+#footerBackground {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(../img/fridge_footer_banner.png);
+    background-position: center;
 }
 
 #firstBackgroundImage {
@@ -818,6 +874,15 @@ h1 {
     height: 350px;
 }
 
+#thirdContainer {
+    width: 100%;
+    height: 392px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
+    position: relative;
+}
+
 #thirdContainerMap {
     width: 83%;
     height: 392px;
@@ -829,19 +894,19 @@ h1 {
 }
 
 #agbBottom {
-    margin-left: 71%;
-    margin-top: 23.5px;
-    font-size: 12px;
+    margin-left: 70%;
+    margin-top: 28px;
+    font-size: 13px;
     position: absolute;
-    height: 18px;
+    height: 25px;
 }
 
 #copyright {
     width: 30%;
     height: 20px;
     color: black;
-    font-size: 12px;
-    margin-top: 24.5px;
+    font-size: 13px;
+    margin-top: 28.5px;
     margin-left: 5%;
     position: absolute;
 }
@@ -865,8 +930,8 @@ h1 {
 }
 
 #lightBluFooter {
-    background-color: #36acd6;
-    height: 65px;
+    background: -webkit-gradient(linear, right top, left bottom, from(#36b4e4), to(#6fb342));
+    height: 67px;
 }
 
 .iconsSize {
@@ -919,7 +984,7 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 14px;
     float: left;
-    margin-left: -66px;
+    margin-left: -91px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -1065,7 +1130,9 @@ h4 {
 #thirdContainer {
     width: 100%;
     height: 400px;
-    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
     margin-top: -35px;
 }
 
@@ -1223,6 +1290,15 @@ h4 {
     float: left;
 }
 
+#thirdContainer {
+    width: 100%;
+    height: 270px;
+    background-image: url(../img/mappe.png);
+    margin-top: -35px;
+}
+
+
+
 #thirdBackgroundTextRight {
     width: 100%;
     height: 350px;
@@ -1341,8 +1417,10 @@ h4 {
 
 #thirdContainer {
     width: 100%;
-    height: 369px;
-    background-color: black;
+    height: 281px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
     margin-top: -35px;
 }
 

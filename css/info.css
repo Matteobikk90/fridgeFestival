@@ -282,6 +282,9 @@ h4 {
 
 @media only screen and (min-width: 1441px) {
 
+p {
+    font-size: 18px;
+}
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     margin-right: 0;
@@ -397,6 +400,57 @@ h4 {
 
 
 
+}
+
+@media only screen and (min-width: 1680px) {
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 77%;
+    margin-top: -10px;
+}
+
+#followUsIcons {
+    margin-left: 47%;
+    margin-top: 650px;
+    position: absolute;
+    width: 28%;
+    height: 58px;
+}
+    
+}
+
+
+@media only screen and (min-width: 1920px) {
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 80%;
+    margin-top: -10px;
+}
+
+#followUsIcons {
+    margin-left: 47.5%;
+    margin-top: 650px;
+    position: absolute;
+    width: 28%;
+    height: 58px;
+}
+
+}
+
+@media only screen and (min-width: 2560px) {
+
+#ticketLogoRight {
+    width: 395px;
+    height: 210px;
+    position: fixed;
+    margin-left: 85%;
+    margin-top: -10px;
+}
+    
 }
 
 @media only screen and (max-width: 1024px) {
@@ -779,7 +833,7 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 14px;
     float: left;
-    margin-left: -73px;
+    margin-left: -90px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -947,7 +1001,7 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 14px;
     float: left;
-    margin-left: -74px;
+    margin-left: -91px;
 }
 
 #ticketLogoRight {

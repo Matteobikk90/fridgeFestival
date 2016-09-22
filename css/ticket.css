@@ -250,6 +250,11 @@ iframe {
     margin-left: -46px;
 }
 
+iframe {
+    margin-top: 100px;
+    height: 1303px;
+}
+
 .navbar-nav {
     float: right;
     margin: 0;
@@ -761,7 +766,7 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 14px;
     float: left;
-    margin-left: -73px;
+    margin-left: -90px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -960,7 +965,7 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 14px;
     float: left;
-    margin-left: -74px;
+    margin-left: -91px;
 }
 
 #followUsIcons {
