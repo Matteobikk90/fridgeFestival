@@ -598,10 +598,10 @@ h2 {
 
 #fridgeLogoLeft {
     width: 100px;
-    height: 100px;
-    margin-top: 40px;
+    height: 70px;
+    margin-top: 10px;
     position: absolute;
-    margin-left: 4%;
+    margin-left: 2%;
 }
 
 #fridgeLogoSize {
@@ -724,16 +724,16 @@ h4 {
 }
 
 #iconsSize {
-    width: 45px;
-    margin-top: 1px;
-    height: 45px;
-    margin-right: 4%;
+    width: 73px;
+    margin-top: -3px;
+    height: 53px;
+    margin-right: 8%;
 }
 
 #mobileLogoVersion {
     display: initial;
     float: right;
-    margin-right: 11px;
+    margin-right: 30px;
 }
 
 #ss_menu {
@@ -763,7 +763,7 @@ h4 {
 .navbar-default .navbar-toggle {
     border-color: black;
     float: left;
-    margin-left: 15px;
+    margin-left: 32px;
     margin-top: 6px;
 }
 
@@ -788,7 +788,7 @@ h4 {
     background-color: #6fb342;
     width: 112%;
     margin-left: -15%;
-    text-align: center;
+    text-align: left;
 }
 
 .navbar-nav {
@@ -808,8 +808,8 @@ h4 {
     width: 127px;
     height: 80px;
     position: fixed;
-    margin-left: 62%;
-    margin-top: 20px;
+    margin-left: 70%;
+    margin-top: 0px;
 }
 
 #fridgeLogoLeft {
@@ -838,14 +838,6 @@ h4 {
     margin-left: 2.5%;
     position: absolute;
     color: white;
-}
-
-#ticketLogoRight {
-    width: 127px;
-    height: 80px;
-    position: fixed;
-    margin-left: 70%;
-    margin-top: 20px;
 }
 
 #secondContainer {
@@ -915,9 +907,9 @@ h4 {
 }
 
 #agbBottom {
-    margin-left: 59%;
+    margin-left: 52%;
     margin-top: 27px;
-    font-size: 12px;
+    font-size: 11px;
     position: absolute;
     height: 25px;
 }
@@ -926,9 +918,9 @@ h4 {
     width: 32%;
     height: 20px;
     color: black;
-    font-size: 12px;
-    margin-top: 24.5px;
-    margin-left: 3%;
+    font-size: 11px;
+    margin-top: 27.5px;
+    margin-left: 9%;
     position: absolute;
 }
 
@@ -949,14 +941,22 @@ h4 {
     margin-left: -74px;
 }
 
+#ticketLogoRight {
+    width: 127px;
+    height: 80px;
+    position: fixed;
+    margin-left: 66%;
+    margin-top: 0px;
+}
+
 h2 {
     font-size: 16px;
 }
 
 #agbBottom {
-    margin-left: 53%;
+    margin-left: 48%;
     margin-top: 27px;
-    font-size: 12px;
+    font-size: 10px;
     position: absolute;
     height: 25px;
 }
@@ -999,9 +999,9 @@ h2 {
     width: 36%;
     height: 20px;
     color: black;
-    font-size: 12px;
-    margin-top: 24.5px;
-    margin-left: 3%;
+    font-size: 10px;
+    margin-top: 27.5px;
+    margin-left: 13%;
     position: absolute;
 }
 
@@ -1025,6 +1025,13 @@ h2 {
     margin-bottom: 17px;
 }
 
+.iconsSize {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-right: -24px;
+}
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 15px;
     float: left;
@@ -1033,7 +1040,9 @@ h2 {
 
 .navbar-default .navbar-toggle {
     border-color: black;
-    margin-top: 7px;
+    float: left;
+    margin-left: 13px;
+    margin-top: 6px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -1092,13 +1101,28 @@ h2 {
     margin-top: -96px;
 }
 
+#ticketLogoRight {
+    width: 107px;
+    height: 60px;
+    position: fixed;
+    margin-left: 67%;
+    margin-top: 0px;
+}
+
+#iconsSize {
+    width: 63px;
+    margin-top: 4px;
+    margin-right: 8%;
+    height: 43px;
+}
+
 #copyright {
-    width: 36%;
+    width: 39%;
     height: 20px;
     color: black;
     font-size: 10px;
     margin-top: 27.5px;
-    margin-left: 4%;
+    margin-left: 7%;
     position: absolute;
 }
 

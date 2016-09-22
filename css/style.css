@@ -729,10 +729,10 @@ h4 {
 }
 
 #iconsSize {
-    width: 45px;
-    margin-top: 1px;
-    height: 45px;
-    margin-right: 4%;
+    width: 73px;
+    margin-top: -3px;
+    margin-right: 8%;
+    height: 53px;
 }
 
 .navbar-brand {
@@ -750,7 +750,7 @@ h4 {
 .navbar-default .navbar-toggle {
     border-color: black;
     float: left;
-    margin-left: 15px;
+    margin-left: 32px;
     margin-top: 6px;
 }
 
@@ -775,7 +775,7 @@ h4 {
     background-color: #6fb342;
     width: 112%;
     margin-left: -15%;
-    text-align: center;
+    text-align: left;
 }
 
 .navbar-nav {
@@ -795,7 +795,7 @@ h4 {
     width: 127px;
     height: 80px;
     position: fixed;
-    margin-left: 62%;
+    margin-left: 70%;
     margin-top: 0px;
 }
 
@@ -825,14 +825,6 @@ h4 {
     margin-left: 2.5%;
     position: absolute;
     color: white;
-}
-
-#ticketLogoRight {
-    width: 139.5px;
-    height: 68px;
-    position: fixed;
-    margin-left: 68%;
-    margin-top: 2px;
 }
 
 #secondBackground {
@@ -923,32 +915,31 @@ h4 {
 }
 
 #agbBottom {
-    margin-left: 56%;
+    margin-left: 52%;
     margin-top: 27px;
-    font-size: 12px;
+    font-size: 11px;
     position: absolute;
     height: 25px;
 }
 
 #copyright {
-    width: 32%;
+    width: 36%;
     height: 20px;
     color: black;
     font-size: 11px;
-    margin-top: 24.5px;
-    margin-left: 5%;
+    margin-top: 27.5px;
+    margin-left: 7%;
     position: absolute;
 }
-
 
 }
 
 @media only screen and (max-width: 375px) {
 
 #agbBottom {
-    margin-left: 50%;
+    margin-left: 48%;
     margin-top: 27px;
-    font-size: 12px;
+    font-size: 10px;
     position: absolute;
     height: 25px;
 }
@@ -957,6 +948,14 @@ h4 {
     margin-top: 14px;
     float: left;
     margin-left: -74px;
+}
+
+#ticketLogoRight {
+    width: 127px;
+    height: 80px;
+    position: fixed;
+    margin-left: 66%;
+    margin-top: 0px;
 }
 
 #followUsIcons {
@@ -1020,7 +1019,9 @@ h4 {
 
 .navbar-default .navbar-toggle {
     border-color: black;
-    margin-top: 7px;
+    float: left;
+    margin-left: 13px;
+    margin-top: 6px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -1039,6 +1040,14 @@ h4 {
     width: 113%;
     margin-left: -6%;
     text-align: center;
+}
+
+#ticketLogoRight {
+    width: 107px;
+    height: 60px;
+    position: fixed;
+    margin-left: 67%;
+    margin-top: 0px;
 }
 
 #firstBackgroundTextBottom {
@@ -1079,20 +1088,35 @@ h4 {
     margin-top: -96px;
 }
 
+#ticketLogoRight {
+    width: 107px;
+    height: 60px;
+    position: fixed;
+    margin-left: 67%;
+    margin-top: 0px;
+}
+
 #copyright {
-    width: 36%;
+    width: 39%;
     height: 20px;
     color: black;
     font-size: 10px;
     margin-top: 27.5px;
-    margin-left: 4%;
+    margin-left: 7%;
     position: absolute;
+}
+
+#iconsSize {
+    width: 63px;
+    margin-top: 4px;
+    margin-right: 8%;
+    height: 43px;
 }
 
 #agbBottom {
     margin-left: 45%;
     margin-top: 27px;
-    font-size: 12px;
+    font-size: 10px;
     position: absolute;
     height: 25px;
 }
