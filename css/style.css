@@ -320,11 +320,12 @@ h4 {
 }
 
 #thirdContainer {
-	width: 100%;
-	height: 1240px;
+    width: 100%;
+    height: 1240px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
+    margin-top: -2px;
 }
 
 #thirdContainerMap {
