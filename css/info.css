@@ -440,11 +440,19 @@ p {
 }
 
 #followUsIcons {
-    margin-left: 47.5%;
+    margin-left: 48%;
     margin-top: 650px;
     position: absolute;
     width: 28%;
     height: 58px;
+}
+
+#agbBottom {
+    margin-left: 84%;
+    margin-top: 30px;
+    font-size: 18px;
+    position: absolute;
+    height: 25px;
 }
 
 }
@@ -457,6 +465,14 @@ p {
     position: fixed;
     margin-left: 85%;
     margin-top: -10px;
+}
+
+#agbBottom {
+    margin-left: 86.5%;
+    margin-top: 30px;
+    font-size: 18px;
+    position: absolute;
+    height: 25px;
 }
     
 }

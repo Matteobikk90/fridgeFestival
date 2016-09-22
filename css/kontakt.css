@@ -385,6 +385,22 @@ h4 {
     margin-top: -10px;
 }
 
+#followUsIcons {
+    margin-left: 48%;
+    margin-top: 650px;
+    position: absolute;
+    width: 28%;
+    height: 58px;
+}
+
+#agbBottom {
+    margin-left: 84%;
+    margin-top: 30px;
+    font-size: 18px;
+    position: absolute;
+    height: 25px;
+}
+
 }
 
 @media only screen and (min-width: 2560px) {
@@ -395,6 +411,22 @@ h4 {
     position: fixed;
     margin-left: 85%;
     margin-top: -10px;
+}
+
+#agbBottom {
+    margin-left: 86.5%;
+    margin-top: 30px;
+    font-size: 18px;
+    position: absolute;
+    height: 25px;
+}
+
+#followUsIcons {
+    margin-left: 36%;
+    margin-top: 650px;
+    position: absolute;
+    width: 28%;
+    height: 58px;
 }
 
 }
