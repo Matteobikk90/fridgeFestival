@@ -287,12 +287,11 @@ h4 {
 }
 
 #ticketLogoRight {
-    width: 319px;
-    height: 136px;
+    width: 395px;
+    height: 210px;
     position: fixed;
-    margin-left: 88%;
+    margin-left: 85%;
     margin-top: -10px;
-    z-index: 9999;
 }
 
 #secondBackgroundInsideLeft {
@@ -320,12 +319,11 @@ h4 {
 }
 
 #thirdContainer {
-    width: 100%;
-    height: 1240px;
+	width: 100%;
+	height: 1240px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-top: -2px;
 }
 
 #thirdContainerMap {
@@ -1062,10 +1060,9 @@ h4 {
 
 #thirdContainer {
     width: 100%;
-    height: 273px;
+    height: 369px;
     background-color: black;
-    margin-top: -48px;
-    position: relative;
+    margin-top: -35px;
 }
 
 #thirdContainerMap {
@@ -1086,7 +1083,7 @@ h4 {
     color: white;
     text-align: center;
     margin-left: 0%;
-    margin-top: -23px;
+    margin-top: -96px;
 }
 
 #ticketLogoRight {
