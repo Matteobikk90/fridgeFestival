@@ -1,21 +1,30 @@
-$(function() {
-  $('#ChangeToggle').click(function() {
-    $('#navbar-hamburger').toggleClass('hidden');
-    $('#navbar-close').toggleClass('hidden');  
-  });
+$(document).ready(function() {
 
-  $('.ss_button').on('click',function() {
-    $('.ss_content').slideUp('fast');
-    $(this).next('.ss_content').slideDown('fast');
-  });
+$('#ChangeToggle').click(function() {
+
+ $('#navbar-hamburger').toggleClass('hidden');
+ $('#navbar-close').toggleClass('hidden');  
+
+});
+
+
+$('.ss_button').on('click', function() {
+
+    if ($(this).next('.ss_content').is(":visible")) {
+ $('.ss_content').slideUp('fast');
+    } else {
+ $(this).next('.ss_content').slideDown('fast');
+    
+   }
+});
+  
 	
-	$(".fancybox").fancybox();
+$(".fancybox").fancybox();
 
-
-	$(".fancybox").fancybox({
+$(".fancybox").fancybox({
 		openEffect	: 'none',
 		closeEffect	: 'none'
-	});
+});
 
 
 });
