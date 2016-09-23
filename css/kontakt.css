@@ -140,21 +140,14 @@ h4 {
     font-size: 30px;
 }
 
-#thirdContainer {
-    width: 100%;
-    height: 652px;
-    background-color: black;
-    margin-top: -1px;
-}
-
 #thirdContainerMap {
-    width: 58%;
-    position: absolute;
+    width: 100%;
     height: 652px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 21%;
+    margin-top: -1px;
+    position: relative;
 }
 
 #footerBackground {
@@ -291,13 +284,12 @@ h4 {
 
 #thirdContainerMap {
     width: 100%;
-    position: absolute;
     height: 1240px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
     margin-left: 0%;
-    margin-top: 65px;
+    margin-top: -1px;
 }
 
 #followUsIcons {
@@ -388,7 +380,7 @@ h4 {
 }
 
 #followUsIcons {
-    margin-left: 48%;
+    margin-left: 36%;
     margin-top: 650px;
     position: absolute;
     width: 28%;
@@ -516,21 +508,14 @@ h4 {
     margin-top: -1px;
 }
 
-#thirdContainer {
-    width: 100%;
-    height: 350px;
-    background-color: black;
-    margin-top: -34px;
-}
-
 #thirdContainerMap {
-    width: 70%;
-    height: 340px;
+    width: 100%;
+    height: 423px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 15%;
-    margin-top: 35px;
+    margin-left: 0%;
+    margin-top: 0px;
 }
 
 #footerBackground {
@@ -701,21 +686,14 @@ h2 {
     margin-top: 112px;
 }
 
-#thirdContainer {
+#thirdContainerMap {
     width: 100%;
     height: 420px;
-    background-color: black;
-    margin-top: -34px;
-}
-
-#thirdContainerMap {
-    width: 83%;
-    height: 392px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 8.5%;
-    margin-top: 35px;
+    margin-left: 0%;
+    margin-top: 0px;
 }
 
 #agbBottom {
@@ -884,22 +862,15 @@ h4 {
     margin-top: 0px;
 }
 
-#thirdContainer {
+#thirdContainerMap {
     width: 100%;
     height: 306px;
-    background-color: black;
-    margin-top: -35px;
-}
-
-#thirdContainerMap {
-    width: 96%;
-    height: 248px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 2%;
-    margin-top: 52px;
-    position: absolute;
+    margin-left: 0%;
+    margin-top: 0px;
+    /* position: absolute; */
 }
 
 #footerBackground {
@@ -1144,22 +1115,14 @@ h2 {
     color: white;
 }
 
-#thirdContainer {
-    width: 100%;
-    height: 325px;
-    background-color: black;
-    margin-top: -35px;
-}
-
 #thirdContainerMap {
-    width: 98%;
-    height: 269px;
+    width: 100%;
+    height: 270px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 1%;
+    margin-left: 0%;
     margin-top: 40px;
-    position: absolute;
 }
 
 #footerBackgroundText {
