@@ -111,7 +111,7 @@ h4 {
 
 #secondBackground {
     width: 100%;
-    height: 1100px;
+    height: 300px;
     background-color: black;
     border-top: black;
     margin-top: -1px;
@@ -120,7 +120,7 @@ h4 {
 #textPresse {
     width: 90%;
     background-color: white;
-    height: 1060px;
+    height: 530px;
     margin-top: -30px;
     margin-left: 5%;
     position: absolute;
@@ -237,7 +237,7 @@ h4 {
 #textPresse {
     width: 90%;
     background-color: white;
-    height: 1070px;
+    height: 530px;
     margin-top: -30px;
     margin-left: 5%;
     position: absolute;
@@ -279,7 +279,7 @@ h4 {
     margin-left: 48%;
     margin-top: 650px;
     position: absolute;
-    width: 4%;
+    width: 23%;
     height: 58px;
 }
 
@@ -339,6 +339,16 @@ h4 {
     position: absolute;
     width: 28%;
     height: 58px;
+}
+
+#textPresse {
+    width: 90%;
+    background-color: white;
+    height: 530px;
+    margin-top: -30px;
+    margin-left: 5%;
+    position: absolute;
+    text-align: center;
 }
 
 #agbBottom {
@@ -493,7 +503,7 @@ h4 {
 
 #secondBackground {
     width: 100%;
-    height: 816px;
+    height: 350px;
     background-color: black;
     border-top: black;
     margin-top: -1px;
@@ -502,7 +512,7 @@ h4 {
 #textPresse {
     width: 90%;
     background-color: white;
-    height: 835px;
+    height: 435px;
     margin-top: -30px;
     margin-left: 5%;
     position: absolute;
@@ -648,7 +658,7 @@ h2 {
 #textPresse {
     width: 90%;
     background-color: white;
-    height: 760px;
+    height: 390px;
     margin-top: -30px;
     margin-left: 5%;
     position: absolute;
@@ -664,7 +674,7 @@ h2 {
 
 #secondBackground {
     width: 100%;
-    height: 740px;
+    height: 350px;
     background-color: black;
     border-top: black;
     margin-top: -1px;
@@ -832,7 +842,7 @@ h4 {
 
 #secondBackground {
     width: 100%;
-    height: 750px;
+    height: 350px;
     background-color: black;
     border-top: black;
     margin-top: 0px;
@@ -950,7 +960,7 @@ h2 {
 
 #secondBackground {
     width: 100%;
-    height: 862px;
+    height: 350px;
     background-color: black;
     border-top: black;
     margin-top: 0px;
@@ -959,7 +969,7 @@ h2 {
 #textPresse {
     width: 90%;
     background-color: white;
-    height: 780px;
+    height: 424px;
     margin-top: -30px;
     margin-left: 5%;
     position: absolute;
@@ -1051,11 +1061,18 @@ h2 {
 #textPresse {
     width: 90%;
     background-color: white;
-    height: 780px;
+    height: 350px;
     margin-top: -30px;
     margin-left: 5%;
     position: absolute;
     text-align: center;
+}
+
+#textPresseInside {
+    width: 100%;
+    /* position: fixed; */
+    height: 84px;
+    margin-top: 74px;
 }
 
 #thirdContainer {
