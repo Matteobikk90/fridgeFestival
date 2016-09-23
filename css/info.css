@@ -12,6 +12,12 @@ h4 {
     line-height: 24px;
 }
 
+iframe {
+    width: 100%;
+    border: 0;
+    height: 386px;
+}
+
 /*p{
     background-color: white;
 }*/
@@ -197,13 +203,14 @@ h4 {
 }
 
 #thirdContainerMap {
-    width: 58%;
-    position: absolute;
-    height: 652px;
+    width: 100%;
+    /* position: relative; */
+    height: 700px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 21%;
+    margin-left: 0%;
+    margin-top: -128px;
 }
 
 #footerBackground {
@@ -343,13 +350,12 @@ p {
 
 #thirdContainerMap {
     width: 100%;
-    position: absolute;
     height: 1240px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
     margin-left: 0%;
-    margin-top: 65px;
+    margin-top: -1px;
 }
 
 #followUsIcons {
@@ -417,6 +423,12 @@ p {
     position: absolute;
     width: 28%;
     height: 58px;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 350px;
 }
 
 #agbBottom {
@@ -504,6 +516,12 @@ p {
     width: 28%;
     height: 58px;
 }
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 400px;
+}
     
 }
 
@@ -585,13 +603,13 @@ h4 {
 }
 
 #thirdContainerMap {
-    width: 70%;
-    height: 340px;
+    width: 100%;
+    height: 435px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 15%;
-    margin-top: 35px;
+    margin-left: 0%;
+    margin-top: -76px;
 }
 
 #footerBackground {
@@ -666,6 +684,12 @@ h2 {
     font-size: 20px;
 }
 
+iframe {
+    width: 100%;
+    border: 0;
+    height: 256px;
+}
+
 #iconsSize {
     width: 30px;
     height: 30px;
@@ -695,9 +719,9 @@ h2 {
     background-color: #36b4e4;
     border: 2px solid black;
     cursor: pointer;
-    padding: 25px;
+    padding: 18px;
     color: black;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .navbar-nav {
@@ -793,13 +817,13 @@ h2 {
 }
 
 #thirdContainerMap {
-    width: 83%;
-    height: 392px;
+    width: 100%;
+    height: 400px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 8.5%;
-    margin-top: 35px;
+    margin-left: 0%;
+    margin-top: -58px;
 }
 
 #agbBottom {
@@ -1000,14 +1024,24 @@ h4 {
 }
 
 #thirdContainerMap {
-    width: 96%;
-    height: 248px;
+    width: 100%;
+    height: 263px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 2%;
-    margin-top: 52px;
-    position: absolute;
+    margin-left: 0%;
+    margin-top: 0px;
+}
+
+.ss_button {
+    background-color: #36b4e4;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 25px;
+    color: black;
+    width: 100%;
+    font-size: 9px;
+    height: 62px;
 }
 
 #imgFirstList {
@@ -1237,14 +1271,14 @@ h2 {
 }
 
 #thirdContainerMap {
-    width: 98%;
+    width: 100%;
     height: 269px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-left: 1%;
-    margin-top: 40px;
-    position: absolute;
+    /* margin-left: 1%; */
+    margin-top: 0px;
+    /* position: absolute; */
 }
 
 #footerBackgroundText {
