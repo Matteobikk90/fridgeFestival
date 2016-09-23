@@ -8,14 +8,15 @@ $('#ChangeToggle').click(function() {
 });
 
 
-$('.ss_button').on('click', function() {
+$('.ss_button').click(function() {
 
-    if ($(this).next('.ss_content').is(":visible")) {
- $('.ss_content').slideUp('fast');
-    } else {
- $(this).next('.ss_content').slideDown('fast');
-    
-   }
+if ($(this).next('.ss_content').is(':hidden')) {
+// $('.ss_content').slideUp('fast');
+$(this).next('.ss_content').slideDown('fast');
+}
+else if ($('.ss_content').is(':visible')) {
+$(this).next('.ss_content').slideUp('fast');
+}
 });
   
 	
