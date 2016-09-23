@@ -90,8 +90,8 @@ h4 {
 }
 
 #fridgeLogoLeft {
-    width: 125px;
-    height: 95px;
+    width: 175px;
+    height: 145px;
     margin-top: 10px;
     position: absolute;
     margin-left: 4%;
@@ -275,11 +275,11 @@ h4 {
 }
 
 #fridgeLogoLeft {
-    width: 165px;
-    height: 135px;
+    width: 215px;
+    height: 185px;
     margin-top: 20px;
     position: absolute;
-    margin-left: 2%;
+    margin-left: 0%;
 }
 
 #fridgeLogoSize {
@@ -499,6 +499,14 @@ h4 {
     margin-top: -10px;
 }
 
+#fridgeLogoLeft {
+    width: 245px;
+    height: 215px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 1%;
+}
+
 #agbBottom {
     margin-left: 86.5%;
     margin-top: 30px;
@@ -553,11 +561,11 @@ h4 {
 }
 
 #fridgeLogoLeft {
-    width: 100px;
-    height: 70px;
+    width: 130px;
+    height: 100px;
     margin-top: 10px;
     position: absolute;
-    margin-left: 2.5%;
+    margin-left: 3.5%;
 }
 
 #fridgeLogoSize {
@@ -727,8 +735,8 @@ h4 {
 }
 
 #fridgeLogoLeft {
-    width: 100px;
-    height: 70px;
+    width: 130px;
+    height: 100px;
     margin-top: 10px;
     position: absolute;
     margin-left: 2%;
@@ -972,7 +980,7 @@ h4 {
     width: 100%;
     height: 280px;
     float: left;
-    margin-top: 170px;
+    margin-top: 120px;
 }
 
 #secondBackgroundInsideRight {
