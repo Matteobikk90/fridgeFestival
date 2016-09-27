@@ -962,7 +962,7 @@ h4 {
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 #agbBottom {
@@ -1072,7 +1072,7 @@ h4 {
 }
 
 h2 {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 17px;
 }
 
@@ -1104,7 +1104,7 @@ h2 {
     background-color: #6fb342;
     width: 113%;
     margin-left: -6%;
-    text-align: center;
+    text-align: left;
 }
 
 #mobileLogoVersion {

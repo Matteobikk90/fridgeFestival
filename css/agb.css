@@ -1038,7 +1038,8 @@ h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     margin-top: 15px;
     float: left;
-    margin-left: -75px;
+    margin-left: -83px;
+    /* text-align: left; */
 }
 
 #iconsSize {
@@ -1070,7 +1071,7 @@ h4 {
     background-color: #6fb342;
     width: 113%;
     margin-left: -6%;
-    text-align: center;
+    text-align: left;
 }
 
 #firstBackgroundTextBottom {
