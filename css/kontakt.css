@@ -379,6 +379,14 @@ h4 {
     margin-top: -10px;
 }
 
+#fridgeLogoLeft {
+    width: 245px;
+    height: 215px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 1%;
+}
+
 #followUsIcons {
     margin-left: 36%;
     margin-top: 650px;
@@ -670,7 +678,7 @@ h2 {
 }
 
 #followUsIcons {
-    margin-left: 37.5%;
+    margin-left: 38%;
     width: 26%;
     margin-top: 186px;
     position: absolute;

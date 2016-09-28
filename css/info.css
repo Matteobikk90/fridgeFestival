@@ -460,6 +460,14 @@ iframe {
     margin-top: -10px;
 }
 
+#fridgeLogoLeft {
+    width: 245px;
+    height: 215px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 1%;
+}
+
 #followUsIcons {
     margin-left: 48%;
     margin-top: 633px;
@@ -793,9 +801,9 @@ iframe {
 }
 
 #followUsIcons {
-    margin-left: 45.5%;
+    margin-left: 46%;
     width: 13%;
-    margin-top: 212px;
+    margin-top: 188px;
     position: absolute;
 }
 

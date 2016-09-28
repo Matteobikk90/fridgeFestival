@@ -458,6 +458,14 @@ h4 {
     color: white;
 }
 
+#fridgeLogoLeft {
+    width: 245px;
+    height: 215px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 1%;
+}
+
 #followUsIcons {
     margin-left: 48%;
     margin-top: 650px;
@@ -497,6 +505,16 @@ h4 {
     position: fixed;
     margin-left: 85%;
     margin-top: -10px;
+}
+
+#firstBackgroundTextBottom {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    margin-top: 920px;
+    margin-left: 0%;
+    position: absolute;
+    color: white;
 }
 
 #fridgeLogoLeft {
@@ -851,7 +869,7 @@ h4 {
     color: white;
     text-align: center;
     margin-left: 0%;
-    margin-top: 0px;
+    margin-top: -36px;
 }
 
 #lightBluFooter {
