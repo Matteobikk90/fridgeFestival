@@ -989,7 +989,7 @@ h1 {
 }
 
 #lightBluFooter {
-    background: -webkit-gradient(linear, right top, left bottom, from(#36b4e4), to(#6fb342));
+    /*background: -webkit-gradient(linear, right top, left bottom, from(#36b4e4), to(#6fb342));*/
     height: 67px;
 }
 
