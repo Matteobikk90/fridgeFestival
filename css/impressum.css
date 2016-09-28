@@ -523,7 +523,7 @@ h4 {
     width: 100%;
     height: 714px;
     background-size: cover;
-    background-image: url(../img/fridge_footer_banner.png);
+    background-image: url(../img/fridge_footer_banner_mob.png);
     background-position: center;
 }
 
@@ -556,11 +556,18 @@ h4 {
 }
 
 #agbBottom {
-    margin-left: 65%;
+    margin-left: 71%;
     margin-top: 30px;
-    font-size: 16px;
+    font-size: 18px;
     position: absolute;
     height: 25px;
+}
+
+#agbBottomUl {
+    display: flex;
+    color: black;
+    list-style: none;
+    text-decoration: none;
 }
 
 .iconsSize {
@@ -694,6 +701,13 @@ h2 {
     height: 18px;
 }
 
+#agbBottomUl {
+    display: flex;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
 #copyright {
     width: 30%;
     height: 20px;
@@ -708,7 +722,7 @@ h2 {
     width: 100%;
     height: 500px;
     background-size: cover;
-    background-image: url(../img/fridge_footer_banner.png);
+    background-image: url(../img/fridge_footer_banner_mob.png);
     background-position: center;
 }
 
@@ -851,7 +865,7 @@ h4 {
     width: 100%;
     height: 310px;
     background-size: cover;
-    background-image: url(../img/fridge_footer_banner.png);
+    background-image: url(../img/fridge_footer_banner_mob.png);
     background-position: center;
 }
 
