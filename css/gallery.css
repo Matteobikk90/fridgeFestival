@@ -265,7 +265,7 @@ h4 {
 }
 
 #agbBottomUl {
-    display: inline-flex;
+    display: flex;
     color: black;
     list-style: none;
     text-decoration: none;
