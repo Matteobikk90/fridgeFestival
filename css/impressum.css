@@ -591,6 +591,10 @@ h4 {
     margin-top: -2px;
 }
 
+.trattino {
+    display: none;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -755,9 +759,17 @@ h2 {
     height: 65px;
 }
 
+.trattino {
+    display: none;
+}
+
 }
 
 @media only screen and (max-width: 568px) {
+
+.trattino {
+    display: initial;
+}
 
 #agbBottom {
     margin-left: 62%;

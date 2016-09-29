@@ -701,10 +701,18 @@ h4 {
     margin-top: -2px;
 }
 
+.trattino {
+    display: none;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
 
+
+.trattino {
+    display: none;
+}
 
 p {
     font-size: 12px;
@@ -907,6 +915,10 @@ iframe {
 }
 
 @media only screen and (max-width: 568px) {
+
+.trattino {
+    display: initial;
+}
 
 #agbBottom {
     margin-left: 62%;
