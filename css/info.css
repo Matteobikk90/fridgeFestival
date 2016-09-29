@@ -425,6 +425,18 @@ p {
     height: 58px;
 }
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 6px;
+}
+
+#fridgeLogoLeft {
+    width: 215px;
+    height: 185px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 3%;
+}
+
 iframe {
     border: 0;
     width: 100%;
@@ -471,7 +483,7 @@ iframe {
     height: 215px;
     margin-top: 20px;
     position: absolute;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
 #followUsIcons {
@@ -529,7 +541,7 @@ iframe {
     height: 215px;
     margin-top: 20px;
     position: absolute;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
 #followUsIcons {
