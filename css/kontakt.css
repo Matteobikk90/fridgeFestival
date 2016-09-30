@@ -170,12 +170,11 @@ h4 {
 }
 
 #followUsIcons {
-    /* margin-left: 46.5%; */
-    width: 100%;
-    margin-top: 390px;
+    margin-left: 48%;
+    margin-top: 650px;
     position: absolute;
-    height: 30px;
-    text-align: center;
+    width: 40%;
+    height: 58px;
 }
 
 #navbar-brand {

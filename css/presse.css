@@ -180,12 +180,11 @@ h4 {
 }
 
 #followUsIcons {
-    /* margin-left: 46.5%; */
-    width: 100%;
-    margin-top: 390px;
+    margin-left: 48%;
+    margin-top: 650px;
     position: absolute;
-    height: 30px;
-    text-align: center;
+    width: 40%;
+    height: 58px;
 }
 
 #navbar-brand {
@@ -583,7 +582,7 @@ h4 {
     height: 545px;
     position: relative;
     background-size: cover;
-    background-image: url(../img/fridge_footer_banner_mob_mob.png);
+    background-image: url(../img/fridge_footer_banner_mob.png);
     background-position: center;
     margin-top: 0px;
 }
