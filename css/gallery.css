@@ -1348,7 +1348,7 @@ h4 {
 #followUsIcons {
     margin-left: 44%;
     width: 22%;
-    margin-top: 120px;
+    margin-top: 90px;
     position: absolute;
 }
 
@@ -1510,9 +1510,9 @@ h4 {
 }
 
 #followUsIcons {
-    margin-left: 43%;
+    margin-left: 43.5%;
     width: 22%;
-    margin-top: 120px;
+    margin-top: 90px;
     position: absolute;
 }
 
@@ -1644,10 +1644,11 @@ h4 {
 }
 
 #followUsIcons {
-    margin-left: 41.5%;
-    width: 22%;
+    margin-left: 0%;
+    width: 100%;
     margin-top: 92px;
     position: absolute;
+    text-align: center;
 }
 
 

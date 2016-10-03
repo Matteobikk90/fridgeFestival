@@ -704,16 +704,16 @@ h4 {
     width: 30%;
     height: 20px;
     color: black;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 30px;
-    margin-left: 6%;
+    margin-left: 5%;
     position: absolute;
 }
 
 #agbBottom {
-    margin-left: 71%;
+    margin-left: 77%;
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 14px;
     position: absolute;
     height: 25px;
 }
@@ -1192,7 +1192,7 @@ h4 {
 #followUsIcons {
     margin-left: 43.5%;
     width: 13%;
-    margin-top: 115px;
+    margin-top: 90px;
     position: absolute;
 }
 
@@ -1292,9 +1292,9 @@ h2 {
 }
 
 #followUsIcons {
-    margin-left: 43%;
+    margin-left: 43.5%;
     width: 36%;
-    margin-top: 120px;
+    margin-top: 90px;
     position: absolute;
 }
 
@@ -1444,10 +1444,11 @@ h2 {
 }
 
 #followUsIcons {
-    margin-left: 41.5%;
-    width: 22%;
+    margin-left: 0%;
+    width: 100%;
     margin-top: 92px;
     position: absolute;
+    text-align: center;
 }
 
 }
