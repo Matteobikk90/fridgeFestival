@@ -189,7 +189,7 @@ h4 {
     color: white;
     text-align: center;
     /* margin-left: 14%; */
-    margin-top: -4px;
+    margin-top: 40px;
 }
 
 #followUsIcons {
@@ -525,6 +525,10 @@ h4 {
     margin-top: -10px;
 }
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+
 #firstBackgroundTextBottom {
     width: 100%;
     height: 140px;
@@ -540,7 +544,36 @@ h4 {
     height: 215px;
     margin-top: 20px;
     position: absolute;
-    margin-left: 3.5%;
+    margin-left: 2%;
+}
+
+#footerBackgroundText {
+    width: 66%;
+    height: 100px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 160px;
+}
+
+#thirdContainer {
+    width: 100%;
+    height: 1240px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
+    margin-left: 0%;
+    position: relative;
+}
+
+#footerBackground {
+    width: 100%;
+    height: 1640px;
+    margin-top: -3px;
+    background-size: cover;
+    background-image: url(../img/fridge_footer_banner.png);
+    background-position: center;
 }
 
 #agbBottom {
@@ -682,16 +715,18 @@ h4 {
     color: white;
     text-align: center;
     margin-left: 0%;
-    margin-top: 10px;
+    margin-top: -19px;
 }
 
 #followUsIcons {
     margin-left: 46.5%;
     width: 40%;
-    margin-top: 290px;
+    margin-top: 206px;
     position: absolute;
     height: 30px;
 }
+
+
 
 #copyright {
     width: 30%;

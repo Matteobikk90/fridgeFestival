@@ -259,6 +259,10 @@ h4 {
     margin-left: -46px;
 }
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+
 .navbar-nav {
     float: right;
     margin: 0;

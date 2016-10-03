@@ -12,6 +12,10 @@ h4 {
     line-height: 24px;
 }
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+
 iframe {
     width: 100%;
     border: 0;
@@ -206,7 +210,7 @@ iframe {
 #thirdContainerMap {
     width: 100%;
     /* position: relative; */
-    height: 700px;
+    height: 600px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
@@ -529,6 +533,10 @@ iframe {
     margin-top: -10px;
 }
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+
 #agbBottom {
     margin-left: 86.5%;
     margin-top: 30px;
@@ -542,11 +550,20 @@ iframe {
     height: 215px;
     margin-top: 20px;
     position: absolute;
-    margin-left: 3%;
+    margin-left: 2%;
+}
+
+#footerBackground {
+    width: 100%;
+    margin-top: -2px;
+    height: 1640px;
+    background-size: cover;
+    background-image: url(../img/fridge_footer_banner.png);
+    background-position: center;
 }
 
 #followUsIcons {
-    margin-left: 48%;
+    margin-left: 36%;
     margin-top: 634px;
     position: absolute;
     width: 28%;
@@ -678,7 +695,7 @@ h4 {
 #followUsIcons {
     margin-left: 46.5%;
     width: 40%;
-    margin-top: 290px;
+    margin-top: 208px;
     position: absolute;
     height: 30px;
 }
@@ -869,12 +886,12 @@ iframe {
 
 #thirdContainerMap {
     width: 100%;
-    height: 400px;
+    height: 420px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
     margin-left: 0%;
-    margin-top: -176px;
+    margin-top: -261px;
 }
 
 #agbBottom {
@@ -1127,7 +1144,7 @@ h4 {
 
 #thirdContainerMap {
     width: 100%;
-    height: 263px;
+    height: 320px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
@@ -1374,7 +1391,7 @@ h2 {
 
 #thirdContainerMap {
     width: 100%;
-    height: 269px;
+    height: 275px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);

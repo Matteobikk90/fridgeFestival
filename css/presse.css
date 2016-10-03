@@ -142,7 +142,7 @@ h4 {
 
 #thirdContainer {
     width: 100%;
-    height: 652px;
+    height: 600px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
@@ -153,7 +153,7 @@ h4 {
 #thirdContainerMap {
     width: 58%;
     position: absolute;
-    height: 652px;
+    height: 600px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
@@ -162,7 +162,7 @@ h4 {
 
 #footerBackground {
     width: 100%;
-    margin-top: -127px;
+    margin-top: 0px;
     height: 1000px;
     background-size: cover;
     background-image: url(../img/fridge_footer_banner.png);
@@ -470,12 +470,25 @@ h4 {
     margin-top: -10px;
 }
 
+#followUsIcons {
+    margin-left: 0%;
+    margin-top: 640px;
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    text-align: center;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+
 #fridgeLogoLeft {
     width: 245px;
     height: 215px;
     margin-top: 20px;
     position: absolute;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 #agbBottom {
@@ -485,7 +498,16 @@ h4 {
     position: absolute;
     height: 25px;
 }
-    
+
+#footerBackground {
+    width: 100%;
+    height: 1640px;
+    margin-top: -1px;
+    background-size: cover;
+    background-image: url(../img/fridge_footer_banner.png);
+    background-position: center;
+}
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -580,7 +602,7 @@ h4 {
 
 #footerBackground {
     width: 100%;
-    height: 545px;
+    height: 714px;
     position: relative;
     background-size: cover;
     background-image: url(../img/fridge_footer_banner_mob.png);
@@ -599,9 +621,9 @@ h4 {
 }
 
 #followUsIcons {
-    margin-left: 30.5%;
+    margin-left: 31.5%;
     width: 40%;
-    margin-top: 210px;
+    margin-top: 208px;
     position: absolute;
     height: 30px;
 }
@@ -1004,7 +1026,7 @@ h2 {
 
 #thirdContainer {
     width: 100%;
-    height: 306px;
+    height: 320px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
@@ -1255,7 +1277,7 @@ h2 {
 
 #thirdContainer {
     width: 100%;
-    height: 270px;
+    height: 275px;
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
