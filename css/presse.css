@@ -249,7 +249,7 @@ h4 {
 
 #firstBackground {
     width: 100%;
-    height: 1160px;
+    height: 1190px;
     margin-top: 80px;
     background-position: center;
     background-size: cover;
@@ -489,6 +489,14 @@ h4 {
     margin-top: 20px;
     position: absolute;
     margin-left: 2%;
+}
+
+#thirdContainer {
+    width: 100%;
+    height: 1050px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/mappe.png);
 }
 
 #agbBottom {
