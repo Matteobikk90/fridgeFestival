@@ -423,8 +423,8 @@ p {
 }
 
 #followUsIcons {
-    margin-left: 47.5%;
-    margin-top: 633px;
+    margin-left: 47%;
+    margin-top: 650px;
     position: absolute;
     width: 28%;
     height: 58px;
@@ -583,11 +583,13 @@ iframe {
 
 #followUsIcons {
     margin-left: 36%;
-    margin-top: 634px;
+    margin-top: 647px;
     position: absolute;
     width: 28%;
     height: 58px;
 }
+
+
 
 iframe {
     border: 0;
