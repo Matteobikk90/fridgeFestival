@@ -260,9 +260,9 @@ iframe {
 }
 
 .iconsSize {
-    width: 40px;
-    height: 40px;
-    margin-top: -10px;
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
 }
 
 .navbar-nav {
@@ -400,6 +400,25 @@ iframe {
     height: 25px;
 }
 
+
+
+}
+
+@media only screen and (min-width: 1680px) {
+
+#fridgeLogoLeft {
+    width: 215px;
+    height: 185px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 0.5%;
+}
+
+.iconsSize {
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
+}
 
 
 }
@@ -853,6 +872,7 @@ h4 {
 
 .navbar-nav {
     float: left;
+    width: 120%;
     margin: 0;
     margin-top: 12px;
     margin-right: -8px;

@@ -337,16 +337,16 @@ h4 {
     margin-top: -10px;
 }
 
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+/*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 6px;
-}
+}*/
 
 #fridgeLogoLeft {
     width: 215px;
     height: 185px;
     margin-top: 20px;
     position: absolute;
-    margin-left: 3%;
+    margin-left: 0.5%;
 }
 
 #followUsIcons {
@@ -893,6 +893,7 @@ h4 {
 
 .navbar-nav {
     float: left;
+    width: 120%;
     margin: 0;
     margin-top: 12px;
     margin-right: -8px;
@@ -1026,7 +1027,7 @@ h2 {
     color: black;
     font-size: 10px;
     margin-top: 27.5px;
-    margin-left: 11%;
+    margin-left: 13%;
     position: absolute;
 }
 
@@ -1214,15 +1215,17 @@ h2 {
 #iconsSize {
     width: 63px;
     margin-top: 4px;
-    margin-right: 8%;
     height: 43px;
+    margin-left: 13%;
 }
+
+
 
 #copyright {
     width: 39%;
     height: 20px;
     color: black;
-    font-size: 10px;
+    font-size: 10px; 
     margin-top: 27.5px;
     margin-left: 7%;
     position: absolute;
@@ -1230,7 +1233,7 @@ h2 {
 
 #agbBottom {
     margin-left: 45%;
-    margin-top: 29px;
+    margin-top: 27px;
     font-size: 10px;
     position: absolute;
     height: 25px;
