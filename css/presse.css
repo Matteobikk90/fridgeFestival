@@ -485,7 +485,7 @@ h4 {
 
 #followUsIcons {
     margin-left: 0%;
-    margin-top: 640px;
+    margin-top: 651px;
     position: absolute;
     width: 100%;
     height: 58px;
@@ -942,7 +942,7 @@ h2 {
     width: 100%;
     /* position: fixed; */
     height: 100px;
-    margin-top: 80px;
+    margin-top: 92px;
 }
 
 .navbar-brand {
@@ -1061,7 +1061,7 @@ h2 {
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-top: -35px;
+    margin-top: 0px;
 }
 
 #linkStyle {
@@ -1142,6 +1142,16 @@ h2 {
     font-size: 16px;
 }
 
+#textPresse {
+    width: 95%;
+    background-color: white;
+    height: 300px;
+    margin-top: -30px;
+    margin-left: 2.5%;
+    position: absolute;
+    text-align: center;
+}
+
 h2 {
     font-size: 16px;
 }
@@ -1205,7 +1215,7 @@ h2 {
     width: 100%;
     /* position: fixed; */
     height: 84px;
-    margin-top: 108px;
+    margin-top: 100px;
 }
 
 #followUsIcons {
@@ -1310,7 +1320,7 @@ h2 {
     background-position: center;
     background-size: cover;
     background-image: url(../img/mappe.png);
-    margin-top: -35px;
+    /* margin-top: -35px; */
 }
 
 #thirdContainerMap {
@@ -1338,7 +1348,7 @@ h2 {
     width: 100%;
     /* position: fixed; */
     height: 84px;
-    margin-top: 80px;
+    margin-top: 96px;
 }
 
 #copyright {
