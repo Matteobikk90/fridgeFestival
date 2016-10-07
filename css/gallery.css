@@ -74,13 +74,13 @@ h4 {
 }
 
 #firstBackground {
-	width: 100%;
-	height: 710px;
-	margin-top: 80px;
-	background-position: center;
-	background-size: cover;
-	position: relative;
-	background-image: url("../img/gallery_fridge_banner.png");
+    width: 100%;
+    height: 750px;
+    margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(../img/gallery_fridge_banner.png);
 }
 
 #firstBackgroundTextBottom {
@@ -500,7 +500,7 @@ h4 {
 
 #firstBackground {
     width: 100%;
-    height: 1062px;
+    height: 1136px;
     margin-top: 80px;
     background-position: center;
     background-size: cover;
@@ -616,7 +616,7 @@ h4 {
 
 #firstBackground {
     width: 100%;
-    height: 1155px;
+    height: 1190px;
     margin-top: 80px;
     background-position: center;
     background-size: cover;

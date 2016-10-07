@@ -461,6 +461,18 @@ iframe {
     background-position: center;
 }
 
+#firstBackground {
+    width: 100%;
+    height: 1136px;
+    margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(../img/infos_fridge_banner.png);
+}
+
+
+
 #agbBottom {
     margin-left: 82.5%;
     margin-top: 30px;
